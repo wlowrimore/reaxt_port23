@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mw1",
+    "title": "Smith's Electrical Contracting",
+    "repo_url": "https://www.github.com/wlowrimore/smith-electrical",
+    "deployed_url": "https://smith-electrical.vercel.app",
+    "image": "/project_images/smith-electrical.png",
+    "description": "This MVP is a powerful SEO built using React 18 and NextJS v13.4. Other features include TailwindCSS, Google API, React Responsive Carousel, and React Icons. You will also find Vanilla CSS, as well as some Vanilla JavaScript."
+  },
+  {
+    "id": "mw2",
+    "title": "Nash Clothing",
+    "repo_url": "https://www.github.com/wlowrimore/nash-clothing",
+    "deployed_url": "N/A",
+    "image": "/project_images/nash-clothing.png",
+    "description": "React e-commerce web application."
+  },
+  {
+    "id": "mw3",
+    "title": "Sayre Joan Photography",
+    "repo_url": "https://www.github.com/wlowrimore/berman_photo_6_22",
+    "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
+    "image": "/project_images/sayreJoanSite.png",
+    "description": "This is a mock website for a local client's photography business.  I used HTML, CSS, and JavaScript to create a simple yet effective and mobile responsive website.  It is also a simple SEO, with a meta description and meta keywords.  The client was very pleased with the outcome."
+  }
+]

@@ -136,11 +136,11 @@ const MainNav = () => {
           </ul>
         </nav>
 
-        <div className="hidden lg:flex flex-col justify-end items-center mb-[-10px] text-cyan-900">
+        <div className="hidden lg:flex flex-col justify-end items-center text-cyan-900">
           <p className="text-lg">
             <IoInvertMode />
           </p>
-          <p className="text-sm">dark-mode</p>
+          {/* <p className="text-sm">dark-mode</p> */}
         </div>
       </header>
       {/* <hr /> */}
