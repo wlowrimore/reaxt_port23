@@ -22,5 +22,13 @@
     "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
     "image": "/project_images/sayreJoanSite.png",
     "description": "This is a mock website for a local client's photography business.  I used HTML, CSS, and JavaScript to create a simple yet effective and mobile responsive website.  It is also a simple SEO, with a meta description and meta keywords.  The client was very pleased with the outcome."
+  },
+  {
+    "id": "mw4",
+    "title": "Weather Dashboard",
+    "repo_url": "https://www.github.com/wlowrimore/berman_photo_6_22",
+    "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
+    "image": "/project_images/weatherDashboard.png",
+    "description": "This is an Application that accepts a city and state search query, returns the current and 5 day weather forecast, and saves the searched location in local storage."
   }
 ]

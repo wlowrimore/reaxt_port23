@@ -22,10 +22,8 @@ const Projects = () => {
   return (
     <>
       <section className="pl-3 my-20 border-l border-gray-900">
-        <h2 className="text-3xl text-cyan-700 tracking-wide">
-          Work | Projects
-        </h2>
-        <p className="pr-12 pt-4">
+        <h2 className="text-3xl text-cyan-700 tracking-wide">My Work</h2>
+        <p className="text-xl text-center tracking-wide pt-8">
           This is a snapshot of some of my work. You can find more examples at
           <Link
             href="https://www.github.com/wlowrimore"
@@ -34,12 +32,12 @@ const Projects = () => {
             noopener
           >
             &nbsp;
-            <span className="text-cyan-800 hover:text-cyan-700 hover:underline">
+            <span className="text-blue-500 hover:text-cyan-700 hover:underline">
               www.github.com/wlowrimore
             </span>
           </Link>
         </p>
-        <div className="w-[50%] h-[70%] my-10 mx-auto">
+        <div className="w-[66.9%] h-[70%] my-10 mx-auto">
           <Suspense fallback={renderLoader()}>
             <Image
               src="/project_images/thePocket.png"
@@ -49,7 +47,7 @@ const Projects = () => {
               className="mb-2 w-[100%] h-[100%] border border-cyan-900 rounded shadow-md shadow-black"
             />
           </Suspense>
-          <div className="flex pl-4">
+          <div className="flex">
             <h2 className="text-xl font-semibold">
               thePocket:&nbsp;
               <span className="text-sm font-normal">
@@ -58,14 +56,21 @@ const Projects = () => {
             </h2>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-4">
-          {projects.map((project, index) => (
-            <div key={`card-${index}`} className="flex">
-              <div>
-                <ProjectCard project={project} priority={`${index}`} />
+        <div className="flex justify-center">
+          <div className="grid grid-cols-2 gap-8">
+            {projects.map((project, index) => (
+              <div key={`card-${index}`} className="flex">
+                <div>
+                  <ProjectCard
+                    project={project}
+                    title={project.title}
+                    description={project.description}
+                    priority={`${index}`}
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
     </>
