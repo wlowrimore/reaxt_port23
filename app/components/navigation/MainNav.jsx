@@ -11,8 +11,8 @@ import { FiMenu } from "react-icons/fi";
 const MainNav = () => {
   return (
     <>
-      <header className="bg-gray-50 lg:flex justify-around relative py-2">
-        <div className="text-center lg:text-start">
+      <header className="sticky top-0 bg-white height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
+        <div className="flex flex-col justify-end text-center lg:mb-6 lg:mt-6 lg:text-start">
           <h1 className="text-2xl lg:text-4xl text-cyan-900 tracking-wide">
             William Lowrimore
           </h1>
@@ -83,11 +83,11 @@ const MainNav = () => {
           </ul>
         </nav>
         {/* ----------------- End Mobile Navigation ---------------- */}
-        <nav className="hidden lg:flex items-end text-cyan-900">
+        <nav className="hidden lg:flex  lg:mb-6 items-end text-cyan-900">
           <ul className="flex space-x-6 text-lg px-3">
             <li>
               <Link
-                href="#"
+                href="/about"
                 className="px-1 hover:underline hover:text-cyan-700"
               >
                 about
@@ -95,18 +95,18 @@ const MainNav = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/skills"
                 className="px-1 hover:underline hover:text-cyan-700"
               >
-                projects
+                skills
               </Link>
             </li>
             <li>
               <Link
-                href="#"
+                href="/projects"
                 className="px-1 hover:underline hover:text-cyan-700"
               >
-                skills
+                projects
               </Link>
             </li>
             <li>
@@ -120,7 +120,7 @@ const MainNav = () => {
           </ul>
         </nav>
 
-        <nav className="hidden lg:flex items-end text-cyan-900">
+        <nav className="hidden lg:mb-7 lg:flex items-end text-cyan-900">
           <ul className="flex space-x-6 text-lg">
             <li>
               <FaGithub />
@@ -137,14 +137,12 @@ const MainNav = () => {
           </ul>
         </nav>
 
-        <div className="hidden lg:flex flex-col justify-end items-center text-cyan-900">
-          <p className="text-lg">
+        <div className="hidden lg:mb-7 lg:flex flex-col justify-end items-center text-cyan-900">
+          <p className="text-xl">
             <IoInvertMode />
           </p>
-          {/* <p className="text-sm">dark-mode</p> */}
         </div>
       </header>
-      {/* <hr /> */}
     </>
   );
 };

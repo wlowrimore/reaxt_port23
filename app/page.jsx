@@ -1,11 +1,10 @@
 import Projects from "./projects/page";
 import About from "./about/page";
-import ProjectCard from "./projects/project_card";
 import Skills from "./skills/page";
 
 export default function Home(project, skill) {
   return (
-    <main className="my-10">
+    <main className="my-10 bg-cyan-800">
       <section className="bg-gray-200">
         <About />
       </section>

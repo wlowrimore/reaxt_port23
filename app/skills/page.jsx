@@ -20,10 +20,10 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="pl-3 py-20 mb-[25em] border-l border-gray-900">
+    <section className="pl-6 mx-20 my-6 border-l border-gray-900">
       <h2 className="text-3xl text-cyan-700 tracking-wide">Skills</h2>
       <div className="flex justify-center pt-8">
-        <div className="grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-4 w-full">
           {skills.map((skill, index) => (
             <div key={`card-${index}`} className="flex">
               <div>

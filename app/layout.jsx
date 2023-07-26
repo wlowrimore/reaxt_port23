@@ -16,9 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${cabin.className} h-screen m-6 lg:m-12`}>
+      <body className={`${cabin.className} h-screen mx-6`}>
         <MainNav />
-        <div className="lg:mt-6 py-10 px-[7.2%]">{children}</div>
+        <div className="py-10 px-[7.2%] h-95">{children}</div>
       </body>
     </html>
   );

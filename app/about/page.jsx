@@ -5,7 +5,7 @@ const renderLoader = () => <p>Loading Images...</p>;
 
 const About = () => {
   return (
-    <section className="grid grid-cols-2 gap-3 pl-3 py-20 mb-[25em] border-l border-gray-900">
+    <section className="grid grid-cols-2 gap-3 pl-4 my-[10%] border-l lg:mx-20 border-gray-900">
       <div>
         <h2 className="text-3xl text-cyan-700 tracking-wide">Background</h2>
         <article className="pt-8 text-lg tracking-wide">
@@ -38,7 +38,7 @@ const About = () => {
               width={500}
               height={500}
               alt="image representing coding"
-              className="relative z-10 bottom-24 left-44 border border-cyan-800 rounded-full shadow-md shadow-black"
+              className="relative z-10 bottom-24 left-40 border border-cyan-800 rounded-full shadow-md shadow-black"
             />
           </Suspense>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
               width={500}
               height={500}
               alt="image representing camping"
-              className="relative z-60 top-8 left-16 border border-cyan-800 rounded-full shadow-md shadow-black"
+              className="relative z-60 top-6 left-16 border border-cyan-800 rounded-full shadow-md shadow-black"
             />
           </Suspense>
         </div>
@@ -93,7 +93,7 @@ const About = () => {
               width={500}
               height={500}
               alt="image representing creativity"
-              className="relative z-50 right-14 bottom-10 border border-cyan-800 rounded-full shadow-md shadow-black"
+              className="relative z-50 right-14 bottom-8 border border-cyan-800 rounded-full shadow-md shadow-black"
             />
           </Suspense>
         </div>
