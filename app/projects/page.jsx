@@ -21,15 +21,14 @@ const Projects = () => {
 
   return (
     <>
-      <section className="pl-3 my-20 border-l border-gray-900">
+      <section className="pl-3 py-20 mb-[25em] border-l border-gray-900">
         <h2 className="text-3xl text-cyan-700 tracking-wide">My Work</h2>
         <p className="text-xl text-center tracking-wide pt-8">
           This is a snapshot of some of my work. You can find more examples at
           <Link
             href="https://www.github.com/wlowrimore"
-            target="_blank"
-            roreferrer
-            noopener
+            rel="noopener noreferrer"
+            target="_bland"
           >
             &nbsp;
             <span className="text-blue-500 hover:text-cyan-700 hover:underline">
@@ -65,6 +64,8 @@ const Projects = () => {
                     project={project}
                     title={project.title}
                     description={project.description}
+                    url={project.repo_url}
+                    tech={project.tech}
                     priority={`${index}`}
                   />
                 </div>

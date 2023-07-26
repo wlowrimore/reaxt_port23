@@ -5,7 +5,8 @@
     "repo_url": "https://www.github.com/wlowrimore/smith-electrical",
     "deployed_url": "https://smith-electrical.vercel.app",
     "image": "/project_images/smith-electrical.png",
-    "description": "This MVP is a powerful SEO built using React 18 and NextJS v13.4. Other features include TailwindCSS, Google API, React Responsive Carousel, and React Icons. You will also find Vanilla CSS, as well as some Vanilla JavaScript."
+    "description": "React | NextJS MVP SEO",
+    "tech": "React | NextJS | Tailwind CSS | Google Maps API | Responsive Carousel"
   },
   {
     "id": "mw2",
@@ -13,7 +14,8 @@
     "repo_url": "https://www.github.com/wlowrimore/nash-clothing",
     "deployed_url": "N/A",
     "image": "/project_images/nash-clothing.png",
-    "description": "React e-commerce web application."
+    "description": "React e-commerce web application.",
+    "tech": "React | NextJS | TypeScript | Tailwind CSS | Redux | Stripe | Firebase"
   },
   {
     "id": "mw3",
@@ -21,14 +23,16 @@
     "repo_url": "https://www.github.com/wlowrimore/berman_photo_6_22",
     "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
     "image": "/project_images/sayreJoanSite.png",
-    "description": "This is a mock website for a local client's photography business.  I used HTML, CSS, and JavaScript to create a simple yet effective and mobile responsive website.  It is also a simple SEO, with a meta description and meta keywords.  The client was very pleased with the outcome."
+    "description": "Mock HTML site built for a professional photographer.",
+    "tech": "HTML | CSS | JavaScript | jQuery"
   },
   {
     "id": "mw4",
     "title": "Weather Dashboard",
-    "repo_url": "https://www.github.com/wlowrimore/berman_photo_6_22",
+    "repo_url": "https://www.github.com/wlowrimore/vandy_bc_weather_dash_chlng_06_2022",
     "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
     "image": "/project_images/weatherDashboard.png",
-    "description": "This is an Application that accepts a city and state search query, returns the current and 5 day weather forecast, and saves the searched location in local storage."
+    "description": "Application that accepts a city and state search query, returns the current and 5 day weather forecast, and saves the searched location in local storage.",
+    "tech": "HTML | CSS | BootStrap | JavaScript | jQuery | NodeJS | OWM API"
   }
 ]

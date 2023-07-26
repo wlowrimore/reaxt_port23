@@ -31,7 +31,7 @@ const MainNav = () => {
           <ul className="flex flex-col py-8 px-12 items-center absolute right-[12%] top-28 space-y-6 z-10 text-lg bg-cyan-900 bg-opacity-80 border border-cyan-900 rounded-md shadow-md shadow-black">
             <li>
               <Link
-                href="#"
+                href="#about"
                 className="p-1 hover:underline hover:text-cyan-700"
               >
                 about
@@ -40,6 +40,7 @@ const MainNav = () => {
             <li>
               <Link
                 href="#"
+                scroll={false}
                 className="p-1 hover:underline hover:text-cyan-700"
               >
                 projects

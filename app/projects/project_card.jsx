@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
 const renderLoader = () => <p>Loading Images...</p>;
 
@@ -17,9 +19,20 @@ const ProjectCard = ({ project }) => {
           />
         </Suspense>
       </div>
-      <div className="w-[31em]">
+      <div className="relative z-10 bottom-[18%] left-[88%]">
+        <Link
+          href={project.repo_url}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="text-yellow-600 text-5xl hover:text-yellow-800"
+        >
+          <FaGithub />
+        </Link>
+      </div>
+      <div className="mt-[-12%] w-[31em]">
         <h2 className="text-lg font-semibold">{project.title}</h2>
-        <p>{project.description}</p>
+        <p className="pb-2">{project.description}</p>
+        <p className="text-cyan-800">{project.tech}</p>
       </div>
     </>
   );

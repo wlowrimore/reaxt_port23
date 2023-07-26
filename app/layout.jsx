@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import MainNav from "./components/navigation/MainNav";
-import Footer from "./components/footer/footer.jsx";
 
 import { Cabin } from "next/font/google";
 
@@ -19,11 +18,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${cabin.className} h-screen m-6 lg:m-12`}>
         <MainNav />
-        <div className="lg:mt-20 py-10 px-[7.2%]">{children}</div>
+        <div className="lg:mt-6 py-10 px-[7.2%]">{children}</div>
       </body>
-      {/* <div className="flex justify-between">
-        <Footer />
-      </div> */}
     </html>
   );
 }
