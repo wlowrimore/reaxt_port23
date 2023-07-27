@@ -38,26 +38,26 @@ const About = () => {
           CREATE . CODE . COLLABORATE
         </h2>
 
-        <div className="pt-20 flex justify-center items-center border-l border-r border-b border-cyan-900">
-          <div className="w-44 h-44">
+        <div className="pt-24 flex justify-center items-center border-l border-r border-b border-cyan-900">
+          <div className="w-36 h-36">
             <Suspense fallback={renderLoader()}>
               <Image
                 src="/images/programming_img.jpg"
                 width={500}
                 height={500}
                 alt="image representing coding"
-                className="relative z-10 bottom-24 left-32 border border-cyan-800 rounded-full shadow-md shadow-black"
+                className="relative bottom-36 left-40 border border-cyan-800 rounded-full shadow-md shadow-black"
               />
             </Suspense>
           </div>
-          <div className="w-28 h-28">
+          <div className="w-36 h-36">
             <Suspense fallback={renderLoader()}>
               <Image
                 src="/images/camping_img.png"
                 width={500}
                 height={500}
                 alt="image representing camping"
-                className="relative z-60 top-6 left-16 border border-cyan-800 rounded-full shadow-md shadow-black"
+                className="relative top-24 left-20 border border-cyan-800 rounded-full shadow-md shadow-black"
               />
             </Suspense>
           </div>
@@ -68,7 +68,7 @@ const About = () => {
                 width={500}
                 height={500}
                 alt="image representing team work"
-                className="relative z-20 bottom-8 right-16 border border-cyan-800 rounded-full shadow-md shadow-black"
+                className="relative bottom-4 right-20 border border-cyan-800 rounded-full shadow-md shadow-black"
               />
             </Suspense>
           </div>
@@ -79,7 +79,7 @@ const About = () => {
                 width={500}
                 height={500}
                 alt="image representing the author"
-                className="border border-cyan-800 rounded-full shadow-md shadow-black opacity-90"
+                className="relative top-1 right-1 border border-cyan-800 rounded-full shadow-md shadow-black opacity-90"
               />
             </Suspense>
           </div>
@@ -90,29 +90,29 @@ const About = () => {
                 width={500}
                 height={500}
                 alt="image representing music"
-                className="relative z-20 top-12 left-0 border border-cyan-800 rounded-full shadow-md shadow-black"
+                className="relative bottom-4 left-16 border border-cyan-800 rounded-full shadow-md shadow-black"
               />
             </Suspense>
           </div>
-          <div className="w-44 h-44">
+          <div className="w-36 h-36">
             <Suspense fallback={renderLoader()}>
               <Image
                 src="/images/creativity_img.jpg"
                 width={500}
                 height={500}
                 alt="image representing creativity"
-                className="relative z-50 right-14 bottom-8 border border-cyan-800 rounded-full shadow-md shadow-black"
+                className="relative bottom-36 right-20 border border-cyan-800 rounded-full shadow-md shadow-black"
               />
             </Suspense>
           </div>
-          <div className="w-28 h-28">
+          <div className="w-36 h-36">
             <Suspense fallback={renderLoader()}>
               <Image
                 src="/images/basketball_img.jpg"
                 width={500}
                 height={500}
                 alt="image representing basketball"
-                className="relative z-50 right-36 top-20 border border-cyan-800 rounded-full shadow-md shadow-black"
+                className="relative right-44 top-24 border border-cyan-800 rounded-full shadow-md shadow-black"
               />
             </Suspense>
           </div>

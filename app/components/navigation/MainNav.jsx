@@ -13,9 +13,11 @@ const MainNav = () => {
     <>
       <header className="sticky top-0 bg-cyan-800 height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
         <div className="flex flex-col justify-end text-center lg:mb-6 lg:mt-6 lg:text-start">
-          <h1 className="text-2xl lg:text-4xl text-white tracking-wide">
-            William Lowrimore
-          </h1>
+          <Link href="/">
+            <h1 className="text-2xl lg:text-4xl text-white  hover:text-gray-300 tracking-wide">
+              William Lowrimore
+            </h1>
+          </Link>
           <p className="text-lg lg:text-2xl text-gray-300 font-thin tracking-wide">
             Software Engineer
           </p>

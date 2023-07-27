@@ -37,7 +37,7 @@ const Projects = () => {
             href="http://www.github.com/wlowrimore"
             rel="noopener noreferrer"
             target="_blank"
-            className="text-cyan-800 hover:text-blue-500 hover:underline"
+            className="text-cyan-800 hover:text-cyan-600 hover:underline"
           >
             www.github.com/wlowrimore
           </Link>
