@@ -111,6 +111,14 @@ const MainNav = () => {
             </li>
             <li>
               <Link
+                href="/development"
+                className="px-1 hover:underline hover:text-cyan-700"
+              >
+                development
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="#"
                 className="px-1 hover:underline hover:text-cyan-700"
               >

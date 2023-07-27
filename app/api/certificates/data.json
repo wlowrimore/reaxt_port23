@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ct1",
+    "title": "React - The Complete Guide",    
+    "image": "/certificates/reactComplete.png"
+  },
+  {
+    "id": "ct2",
+    "title": "React Native - The Practical Guide",
+    "image": "/certificates/reactNative.png"    
+  },
+  {
+    "id": "ct3",
+    "title": "Ruby on Rails 7 Essential Training",
+    "image": "/certificates/rubyOnRails.png"
+  },
+  {
+    "id": "ct4",
+    "title": "Agile Software Development",
+    "image": "/certificates/agileDevelopment.png"
+  },
+  {
+    "id": "ct5",
+    "title": "Software Development Life Cycle (SDLC)",
+    "image": "/certificates/agileLifeCycle.png"
+  }
+]
