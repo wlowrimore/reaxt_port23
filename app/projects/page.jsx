@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <>
       <section className="pl-6 my-6">
-        <h2 className="text-3xl text-center text-cyan-700 tracking-wide">
+        <h2 className="text-3xl text-center text-white bg-cyan-700 tracking-wide mx-64">
           My Work
         </h2>
         <p className="flex text-xl justify-center tracking-wide pt-3">

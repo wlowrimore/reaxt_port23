@@ -20,12 +20,12 @@ const Development = () => {
 
   return (
     <>
-      <section className="grid grid-cols-2 gap-3 pl-4 mt-[2%] mb-10 border-l lg:mx-20 border-gray-900">
+      <section className="grid grid-cols-2 gap-3 mt-[2%] mb-10 lg:mx-20 ">
         <div>
-          <h2 className="text-3xl text-cyan-700 tracking-wide">
+          <h2 className="text-3xl text-white text-center bg-cyan-800 tracking-wide">
             Professional Development
           </h2>
-          <article className="pt-8 text-lg tracking-wide">
+          <article className="py-8 px-8 text-lg border-l border-r border-b border-cyan-900 tracking-wide">
             <p className="pb-2">
               I attended and graduated from Vanderbilt University coding boot
               camp (2021 - 2022), completing the full-stack web development
@@ -47,7 +47,7 @@ const Development = () => {
           </article>
         </div>
         <div className="flex justify-center items-center">
-          <div className="">
+          <div className="p-4 bg-cyan-800">
             <Suspense fallback={renderLoader()}>
               <Image
                 src="/certificates/vandyCert.png"
@@ -60,8 +60,8 @@ const Development = () => {
           </div>
         </div>
       </section>
-      <section className="bg-cyan-900 mx-20">
-        <div className="flex justify-center space-x-6 px-20 mt-10">
+      <section className="bg-cyan-800 mx-20">
+        <div className="flex justify-center space-x-6 px-5 mt-10">
           {certificates.map((certificate, index) => (
             <div key={`card-${index}`} className="flex flex-col">
               <div>
@@ -70,7 +70,9 @@ const Development = () => {
                   title={certificate.title}
                   priority={`${index}`}
                 />
-                <p className="font-semibold text-center">{certificate.title}</p>
+                <p className="text-white text-lg tracking-wide font-semibold text-center pb-4">
+                  {certificate.title}
+                </p>
               </div>
             </div>
           ))}
