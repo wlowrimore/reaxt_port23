@@ -42,7 +42,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="my-20">
+      <div className="my-24">
         <p className="text-xl tracking-wide leading-relaxed">
           Listed here, you will find a handful of frameworks, libraries, and
           programming languages. This list is limited for the purpose of
@@ -56,7 +56,7 @@ const Skills = () => {
           offer, please contact me. I would be more than happy to discuss them
           with you.
         </p>
-        <div className="text-center py-20 leading-relaxed">
+        <div className="text-center py-24 leading-relaxed">
           <h2 className="text-4xl">William Lowrimore</h2>
           <h3 className="text-2xl">Nashville, TN 37214</h3>
           <h3 className="text-2xl">901.568.7941</h3>

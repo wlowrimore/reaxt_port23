@@ -85,7 +85,7 @@ const MainNav = () => {
             </li>
             <li>
               <Link href="/skills" className="px-1 hover:text-gray-300">
-                skills
+                laguages & technologies
               </Link>
             </li>
             <li>
@@ -109,16 +109,40 @@ const MainNav = () => {
         <nav className="hidden text-white lg:mb-7 lg:flex items-end">
           <ul className="flex space-x-6 text-lg">
             <li className="hover:text-gray-300 hover:cursor-pointer">
-              <FaGithub />
+              <Link
+                href="https://www.github.com/wlowrimore"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </Link>
             </li>
             <li className="hover:text-gray-300 hover:cursor-pointer">
-              <FaLinkedinIn />
+              <Link
+                href="https://www.linkedin.com/in/william-lowrimore-software-engineer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </Link>
             </li>
             <li className="hover:text-gray-300 hover:cursor-pointer">
-              <FaTwitter />
+              <Link
+                href="https://www.twitter.com/wlowrimore"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
+              </Link>
             </li>
             <li className="hover:text-gray-300 hover:cursor-pointer">
-              <FaFacebookMessenger />
+              <Link
+                href="https://m.me/wlowrimore"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookMessenger />
+              </Link>
             </li>
           </ul>
         </nav>
