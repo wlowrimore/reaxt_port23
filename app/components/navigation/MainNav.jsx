@@ -6,15 +6,16 @@ import {
   FaFacebookMessenger,
 } from "react-icons/fa";
 import { IoInvertMode } from "react-icons/io5";
+import DarkModeBtn from "../DarkModeBtn";
 import { FiMenu } from "react-icons/fi";
 
 const MainNav = () => {
   return (
     <>
-      <header className="sticky top-0 bg-cyan-800 height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
+      <header className="dark:bg-black sticky top-0 bg-cyan-800 height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
         <div className="flex flex-col justify-end text-center lg:mb-6 lg:mt-6 lg:text-start">
           <Link href="/">
-            <h1 className="text-2xl lg:text-4xl text-white  hover:text-gray-300 tracking-wide">
+            <h1 className="text-2xl lg:text-4xl text-white dark:text-white  hover:text-gray-300 tracking-wide">
               William Lowrimore
             </h1>
           </Link>
@@ -146,11 +147,8 @@ const MainNav = () => {
             </li>
           </ul>
         </nav>
-
-        <div className="hidden lg:mb-7 lg:flex flex-col justify-end items-center text-cyan-900">
-          <p className="text-xl text-white hover:text-gray-300 hover:cursor-pointer">
-            <IoInvertMode />
-          </p>
+        <div className="hidden lg:mb-7 lg:flex flex-col justify-end items-center">
+          <DarkModeBtn />
         </div>
       </header>
     </>
