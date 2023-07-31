@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspend } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import SkillsCard from "./skills_card";
 
@@ -20,23 +21,55 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="mx-20 my-6">
-      <h2 className="text-3xl tracking-wide text-center mx-8 bg-cyan-800 text-white">
-        Skills
-      </h2>
-      <div className="flex justify-center pt-8">
-        <div className="grid grid-cols-4 w-full">
-          {skills.map((skill, index) => (
-            <div key={`card-${index}`} className="flex justify-center">
-              <div>
-                <SkillsCard
-                  skill={skill}
-                  name={skill.name}
-                  priority={`${index}`}
-                />
+    <section className="grid grid-cols-2 gap-12">
+      <div className="flex flex-col">
+        <h2 className="text-3xl tracking-wide text-center bg-cyan-800 text-white">
+          Languages & Technologies
+        </h2>
+        <div className="flex justify-center pt-8 p-6 border border-cyan-900">
+          <div className="grid grid-cols-3 gap-3 w-full">
+            {skills.map((skill, index) => (
+              <div key={`card-${index}`} className="flex justify-center">
+                <div className="">
+                  <SkillsCard
+                    skill={skill}
+                    name={skill.name}
+                    priority={`${index}`}
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="my-20">
+        <p className="text-xl tracking-wide leading-relaxed">
+          Listed here, you will find a handful of frameworks, libraries, and
+          programming languages. This list is limited for the purpose of
+          providing a basic idea of some of the more commonly used software
+          development tools.
+        </p>
+        <br />
+        <p className="text-xl tracking-wide leading-relaxed">
+          Any technologies not listed here, may in fact be a part of my
+          skillset. To find out what other languages and technologies I have to
+          offer, please contact me. I would be more than happy to discuss them
+          with you.
+        </p>
+        <div className="text-center py-20 leading-relaxed">
+          <h2 className="text-4xl">William Lowrimore</h2>
+          <h3 className="text-2xl">Nashville, TN 37214</h3>
+          <h3 className="text-2xl">901.568.7941</h3>
+          <h3 className="text-xl text-cyan-700 hover:text-cyan-500">
+            <Link href="mailto://wlowrimore@gmail.com">
+              wlowrimore@gmail.com
+            </Link>
+          </h3>
+          <h3 className="text-xl text-cyan-700 hover:text-cyan-500">
+            <Link href="https://www.linkedin.com/william-lowrimore-dev">
+              https://www.linkedin/william-lowrimore-dev
+            </Link>
+          </h3>
         </div>
       </div>
     </section>
