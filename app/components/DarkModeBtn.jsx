@@ -21,14 +21,14 @@ const DarkModeBtn = () => {
     <div>
       {currentTheme === "dark" ? (
         <FaSun
-          className="h-6 w-6 cursor-pointer text-orange-200 hover:text-orange-300"
+          className="h-6 w-6 cursor-pointer text-orange-100 hover:text-orange-200 pt-1 hover:border-t rounded-full"
           onClick={() => {
             setTheme("light");
           }}
         />
       ) : (
         <FaRegMoon
-          className="h-6 w-6 cursor-pointer text-yellow-50 hover:text-cyan-400"
+          className="h-6 w-6 cursor-pointer text-yellow-50 hover:text-yellow-100 pt-1 hover:border-t rounded-full"
           onClick={() => {
             setTheme("dark");
           }}
