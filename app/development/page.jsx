@@ -20,26 +20,26 @@ const Development = () => {
 
   return (
     <>
-      <section className="grid grid-cols-2 gap-3 mt-[2%] mb-10 lg:mx-20 ">
+      <section className="lg:grid grid-cols-2 gap-3 mt-[2%] mb-10 lg:mx-20 ">
         <div>
-          <h2 className="text-3xl text-white text-center bg-cyan-800 tracking-wide">
+          <h2 className="text-2xl lg:text-3xl text-cyan-800 pt-6 lg:text-white text-center lg:bg-cyan-800 tracking-wide">
             Professional Development
           </h2>
-          <article className="py-8 px-8 text-lg border-l border-r border-b border-cyan-900 tracking-wide">
-            <p className="pb-2">
+          <article className="py-4 lg:py-8 px-8 text-lg lg:text-xl border-l border-r border-b border-cyan-900 tracking-wide">
+            <p className="pb-4">
               I attended and graduated from Vanderbilt University coding boot
               camp (2021 - 2022), completing the full-stack web development
               course. Working in the virtual classroom, I learned the
               fundamentals of React.js, Database Theory, MySQL, Command Line,
               HTML5, JavaScript, CSS3, and more.
             </p>
-            <p className="pb-2">
+            <p className="pb-4">
               Upon completion of the boot camp, I continued my education through
               online courses, pair coding, and even a full-time role as Junior
               Software Engineer under the direct supervision of my mentor, and
               CTO of a Boulder, CO based software engineering firm.
             </p>
-            <p className="pb-2">
+            <p className="pb-4">
               I continue to study, code, and create everyday. Although my
               certification is in full stack web development, I thrive in the
               front-end environment.
@@ -54,14 +54,14 @@ const Development = () => {
                 width={500}
                 height={500}
                 alt="image showing Vanderbilt certificate for web development."
-                className="border border-cyan-800 rounded-md shadow-md shadow-black"
+                className="lg:w-full border border-cyan-800 rounded-md shadow-md shadow-black"
               />
             </Suspense>
           </div>
         </div>
       </section>
-      <section className="bg-cyan-800 mx-20">
-        <div className="flex justify-center space-x-6 px-5 mt-10">
+      <section className="bg-cyan-800 lg:mx-20">
+        <div className="flex flex-col lg:flex-row justify-center lg:space-x-6 px-5 mt-10">
           {certificates.map((certificate, index) => (
             <div key={`card-${index}`} className="flex flex-col">
               <div>

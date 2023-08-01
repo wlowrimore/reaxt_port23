@@ -12,10 +12,10 @@ import { FiMenu } from "react-icons/fi";
 const MainNav = () => {
   return (
     <>
-      <header className="dark:bg-black sticky top-0 bg-cyan-800 height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
+      <header className="dark:bg-black sticky z-99 top-0 bg-cyan-800 height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
         <div className="flex flex-col justify-end text-center lg:mb-6 lg:mt-6 lg:text-start">
           <Link href="/">
-            <h1 className="text-2xl lg:text-4xl text-white dark:text-white  hover:text-gray-300 tracking-wide">
+            <h1 className="text-2xl lg:text-4xl text-white  hover:text-gray-300 tracking-wide">
               William Lowrimore
             </h1>
           </Link>
@@ -26,12 +26,12 @@ const MainNav = () => {
 
         {/*---------- Mobile Navigation ------------*/}
 
-        <div className="lg:hidden absolute right-4 top-5">
+        {/* <div className="lg:hidden absolute right-4 top-1 text-gray-300">
           <FiMenu className="text-2xl" />
         </div>
 
         <nav className="lg:hidden">
-          <ul className="flex flex-col py-8 px-12 items-center absolute right-[12%] top-28 space-y-6 z-10 text-lg bg-cyan-900 bg-opacity-80 border border-cyan-900 rounded-md shadow-md shadow-black">
+          <ul className="flex flex-col py-8 px-12 items-center absolute space-y-6 z-10 text-lg text-white bg-cyan-900 bg-opacity-95 w-full h-screen">
             <li>
               <Link href="/" className="p-1 hover:text-cyan-700">
                 about
@@ -75,7 +75,7 @@ const MainNav = () => {
               <IoInvertMode />
             </p>
           </ul>
-        </nav>
+        </nav> */}
         {/* ----------------- End Mobile Navigation ---------------- */}
         <nav className="hidden text-white lg:flex  lg:mb-6 items-end">
           <ul className="flex space-x-6 text-lg px-3">

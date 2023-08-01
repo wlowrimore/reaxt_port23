@@ -6,12 +6,12 @@ const renderLoader = () => <p>Loading Images...</p>;
 
 const Contact = () => {
   return (
-    <div className="my-20 flex flex-col justify-center items-center">
-      <h1 className="text-7xl font-bold pb-20">
+    <div className="my-8 lg:my-20 flex flex-col justify-center items-center">
+      <h1 className="text-3xl text-start pl-4 lg:text-7xl font-bold pb-20">
         Let&apos;s create something unique together.
       </h1>
 
-      <div className="w-72 h-72">
+      <div className="w-72 h-72 mb-12">
         <Suspense fallback={renderLoader()}>
           <Image
             src="/images/profile_img.jpg"
@@ -30,8 +30,12 @@ const Contact = () => {
           <Link href="mailto://wlowrimore@gmail.com">wlowrimore@gmail.com</Link>
         </h3>
         <h3 className="text-xl text-cyan-700 hover:text-cyan-500">
-          <Link href="https://www.linkedin.com/william-lowrimore-dev">
-            https://www.linkedin/william-lowrimore-dev
+          <Link
+            href="https://www.linkedin.com/in/william-lowrimore-dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            www.linkedin.com
           </Link>
         </h3>
       </div>

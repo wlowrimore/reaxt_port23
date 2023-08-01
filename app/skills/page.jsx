@@ -21,13 +21,13 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="grid grid-cols-2 gap-12">
-      <div className="flex flex-col">
-        <h2 className="text-3xl tracking-wide text-center bg-cyan-800 text-white">
+    <section className="lg:grid grid-cols-2 gap-12">
+      <div className="lg:flex flex-col">
+        <h2 className="text-2xl lg:text-3xl pt-6 tracking-wide text-center text-cyan-800 lg:bg-cyan-800 lg:text-white">
           Languages & Technologies
         </h2>
-        <div className="flex justify-center pt-8 p-6 border border-cyan-900">
-          <div className="grid grid-cols-3 gap-3 w-full">
+        <div className="flex justify-center lg:pt-8 lg:p-6 lg:border border-cyan-900">
+          <div className="lg:grid grid-cols-3 gap-3 w-full">
             {skills.map((skill, index) => (
               <div key={`card-${index}`} className="flex justify-center">
                 <div className="">
@@ -42,7 +42,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="my-24">
+      <div className="my-12 px-6 lg:my-24">
         <p className="text-xl tracking-wide leading-relaxed">
           Listed here, you will find a handful of frameworks, libraries, and
           programming languages. This list is limited for the purpose of
@@ -56,18 +56,22 @@ const Skills = () => {
           offer, please contact me. I would be more than happy to discuss them
           with you.
         </p>
-        <div className="text-center py-24 leading-relaxed">
+        <div className="text-center py-12 lg:py-24 leading-relaxed">
           <h2 className="text-4xl">William Lowrimore</h2>
           <h3 className="text-2xl">Nashville, TN 37214</h3>
           <h3 className="text-2xl">901.568.7941</h3>
-          <h3 className="text-xl text-cyan-700 hover:text-cyan-500">
+          <h3 className="lg:text-xl text-cyan-700 hover:text-cyan-500">
             <Link href="mailto://wlowrimore@gmail.com">
               wlowrimore@gmail.com
             </Link>
           </h3>
-          <h3 className="text-xl text-cyan-700 hover:text-cyan-500">
-            <Link href="https://www.linkedin.com/william-lowrimore-dev">
-              https://www.linkedin/william-lowrimore-dev
+          <h3 className="lg:text-xl text-cyan-700 hover:text-cyan-500">
+            <Link
+              href="https://www.linkedin.com/in/william-lowrimore-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.linkedin.com
             </Link>
           </h3>
         </div>

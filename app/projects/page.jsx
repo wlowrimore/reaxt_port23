@@ -23,16 +23,11 @@ const Projects = () => {
 
   return (
     <>
-      <section className="pl-6 my-6">
-        <h2 className="text-3xl text-center text-white bg-cyan-700 tracking-wide mx-64">
+      <section className="lg:pl-6 lg:my-6">
+        <h2 className="text-xl pt-4 lg:pt-0 lg:text-3xl text-center lg:text-white lg:bg-cyan-800 tracking-wide lg:mx-64">
           My Work
         </h2>
-        <p className="flex text-xl justify-center tracking-wide pt-3">
-          See more
-          <span className="text-2xl pt-1 pl-1">
-            <BiSolidRightArrowAlt />
-          </span>
-          &nbsp;
+        <p className="flex lg:text-xl justify-center tracking-wide pt-3">
           <Link
             href="http://www.github.com/wlowrimore"
             rel="noopener noreferrer"
@@ -42,7 +37,7 @@ const Projects = () => {
             www.github.com/wlowrimore
           </Link>
         </p>
-        <div className="w-[66.9%] h-[70%] my-3 mx-auto">
+        <div className="w-[90%] lg:w-[66.9%] lg:h-[70%] my-3 mx-auto">
           <Suspense fallback={renderLoader()}>
             <Image
               src="/project_images/thePocket.png"
@@ -62,7 +57,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="grid grid-cols-2 gap-8 mx-52">
+          <div className="lg:grid lg:grid-cols-2 gap-8 mx-52">
             {projects.map((project, index) => (
               <div key={`card-${index}`} className="flex">
                 <div>
