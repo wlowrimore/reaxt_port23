@@ -5,18 +5,25 @@ import {
   FaTwitter,
   FaFacebookMessenger,
 } from "react-icons/fa";
+import { FiMenu } from "react-icons/fi";
 import DarkModeBtn from "../DarkModeBtn";
 import { useState, lazy } from "react";
-import Link from "next/link";
-import Image from "next/image";
 
-import { FiMenu } from "react-icons/fi";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const MainNav = () => {
   const [open, setOpen] = useState(false);
+  const currRoute = usePathname();
+
+  const linkStyle =
+    "my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300";
+  const activeStyle =
+    linkStyle +
+    "my-8 lg:my-0 mx-2 tracking-wider text-gray-300 border-t border-transparent border-t border-gray-300";
 
   return (
-    <header className="dark:bg-black z-99 top-0 bg-cyan-800 height-[10em] w-full lg:border-b border-cyan-900 lg:flex justify-around">
+    <header className="dark:bg-black z-99 top-0 bg-cyan-800 height-[10em] lg:w-full lg:border-b border-cyan-900 lg:flex flex-col xl:flex-row lg:px-20 justify-around">
       <div className="flex flex-col justify-end text-center lg:mb-6 lg:mt-6 lg:text-start">
         <Link href="/">
           <h1 className="text-2xl lg:text-4xl text-white  hover:text-gray-300 tracking-wide">
@@ -45,42 +52,57 @@ const MainNav = () => {
         >
           <FiMenu className="text-2xl" />
         </span>
-        <ul className="lg:flex text-center text-white">
-          <li
-            className="my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300"
-            onClick={() => setOpen(false)}
-          >
-            <Link href="/">about</Link>
+        <ul className="flex flex-col md:flex-row md:space-y-0 space-y-6 mb-6 md:mb-0 text-center text-white">
+          <li onClick={() => setOpen(false)}>
+            <Link
+              href="/"
+              className={currRoute === "/" ? activeStyle : linkStyle}
+            >
+              about
+            </Link>
           </li>
-          <li
-            className="my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300"
-            onClick={() => setOpen(false)}
-          >
-            <Link href="/skills">technologies</Link>
+          <li onClick={() => setOpen(false)}>
+            <Link
+              href="/skills"
+              className={currRoute === "/skills" ? activeStyle : linkStyle}
+            >
+              technologies
+            </Link>
           </li>
-          <li
-            className="my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300"
-            onClick={() => setOpen(false)}
-          >
-            <Link href="/projects">projects</Link>
+          <li onClick={() => setOpen(false)}>
+            <Link
+              href="/projects"
+              className={currRoute === "/projects" ? activeStyle : linkStyle}
+            >
+              projects
+            </Link>
           </li>
-          <li
-            className="my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300"
-            onClick={() => setOpen(false)}
-          >
-            <Link href="/development">development</Link>
+          <li onClick={() => setOpen(false)}>
+            <Link
+              href="/development"
+              className={currRoute === "/development" ? activeStyle : linkStyle}
+            >
+              development
+            </Link>
           </li>
-          <li
-            className="my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300"
-            onClick={() => setOpen(false)}
-          >
-            <Link href="/contact">contact</Link>
+          <li onClick={() => setOpen(false)}>
+            <Link
+              href="/contact"
+              className={currRoute === "/contact" ? activeStyle : linkStyle}
+            >
+              contact
+            </Link>
           </li>
-          <li
-            className="my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300"
-            onClick={() => setOpen(false)}
-          >
-            <Link href="#">resume</Link>
+          <li onClick={() => setOpen(false)}>
+            <Link
+              href="/resume/swfr_resume_8-23.pdf"
+              className={`${linkStyle} text-red-300`}
+              download="swfr_resume_8-23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              resume
+            </Link>
           </li>
         </ul>
 

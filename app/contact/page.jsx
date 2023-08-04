@@ -7,7 +7,7 @@ const renderLoader = () => <p>Loading Images...</p>;
 const Contact = () => {
   return (
     <div className="my-8 lg:my-20 flex flex-col justify-center items-center">
-      <h1 className="text-3xl text-start pl-4 lg:text-7xl font-bold pb-20">
+      <h1 className="text-3xl text-start pl-4 md:text-4xl lg:text-5xl xl:text-6xl lg:pl-32 xl:pl-0 font-bold pb-20">
         Let&apos;s create something unique together.
       </h1>
 

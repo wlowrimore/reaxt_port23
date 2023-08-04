@@ -27,7 +27,7 @@ const Skills = () => {
           Languages & Technologies
         </h2>
         <div className="flex justify-center lg:pt-8 lg:p-6 lg:border border-cyan-900">
-          <div className="lg:grid grid-cols-3 gap-3 w-full">
+          <div className="lg:grid grid-cols-3 gap-3 w-full md:grid md:grid-cols-2">
             {skills.map((skill, index) => (
               <div key={`card-${index}`} className="flex justify-center">
                 <div className="">

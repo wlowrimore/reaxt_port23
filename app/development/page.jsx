@@ -20,7 +20,7 @@ const Development = () => {
 
   return (
     <>
-      <section className="lg:grid grid-cols-2 gap-3 mt-[2%] mb-10 lg:mx-20 ">
+      <section className="md:grid grid-cols-2 gap-3 mt-[2%] mb-10 lg:mx-20 ">
         <div>
           <h2 className="text-2xl lg:text-3xl text-cyan-800 pt-6 lg:text-white text-center lg:bg-cyan-800 tracking-wide">
             Professional Development
@@ -46,7 +46,7 @@ const Development = () => {
             </p>
           </article>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center pr-4">
           <div className="p-4 bg-cyan-800">
             <Suspense fallback={renderLoader()}>
               <Image
@@ -61,7 +61,7 @@ const Development = () => {
         </div>
       </section>
       <section className="bg-cyan-800 lg:mx-20">
-        <div className="flex flex-col lg:flex-row justify-center lg:space-x-6 px-5 mt-10">
+        <div className="flex md:flex-row flex-col lg:flex-row justify-center md:space-x-6 px-8 lg:px-5 mt-10">
           {certificates.map((certificate, index) => (
             <div key={`card-${index}`} className="flex flex-col">
               <div>

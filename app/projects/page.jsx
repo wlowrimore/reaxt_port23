@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <>
       <section className="lg:pl-6 lg:my-6">
-        <h2 className="text-xl pt-4 lg:pt-0 lg:text-3xl text-center lg:text-white lg:bg-cyan-800 tracking-wide lg:mx-64">
+        <h2 className="text-xl pt-4 lg:pt-0 lg:text-3xl text-center lg:text-white lg:bg-cyan-800 tracking-wide lg:mx-72">
           My Work
         </h2>
         <p className="flex lg:text-xl justify-center tracking-wide pt-3">
@@ -32,7 +32,7 @@ const Projects = () => {
             href="http://www.github.com/wlowrimore"
             rel="noopener noreferrer"
             target="_blank"
-            className="text-cyan-800 hover:text-cyan-600 hover:underline"
+            className="text-cyan-700 hover:text-cyan-600 hover:underline"
           >
             www.github.com/wlowrimore
           </Link>
@@ -49,7 +49,10 @@ const Projects = () => {
           </Suspense>
           <div className="flex">
             <h2 className="text-xl font-semibold">
-              thePocket:&nbsp;
+              <span className="bg-cyan-700 px-2 text-white rounded-sm">
+                Feature
+              </span>{" "}
+              - &nbsp; thePocket:&nbsp;
               <span className="text-sm font-normal">
                 A Django-Python Full Stack Blog Styled with Tailwind CSS
               </span>
@@ -57,7 +60,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="lg:grid lg:grid-cols-2 gap-8 mx-52">
+          <div className="2xl:grid 2xl:grid-cols-2 gap-8 2xl:mx-52">
             {projects.map((project, index) => (
               <div key={`card-${index}`} className="flex">
                 <div>
