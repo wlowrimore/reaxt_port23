@@ -52,7 +52,7 @@ const MainNav = () => {
         >
           <FiMenu className="text-2xl" />
         </span>
-        <ul className="flex flex-col md:flex-row md:space-y-0 space-y-6 mb-6 md:mb-0 text-center text-white">
+        <ul className="lg:ml-[-1%] flex flex-col md:flex-row md:space-y-0 space-y-6 mb-6 md:mb-0 text-center text-white">
           <li onClick={() => setOpen(false)}>
             <Link
               href="/"

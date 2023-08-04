@@ -8,7 +8,7 @@ const renderLoader = () => <p>Loading Images...</p>;
 const ProjectCard = ({ project }) => {
   return (
     <>
-      <div className="my-6 h-[10em] lg:h-[16.78em] border border-cyan-800 rounded-md shadow-lg shadow-black overflow-hidden">
+      <div className="my-6 h-[16.78em] border border-cyan-800 rounded-md shadow-lg shadow-black overflow-hidden">
         <Suspense fallback={renderLoader()}>
           <Image
             src={project.image}
@@ -29,7 +29,7 @@ const ProjectCard = ({ project }) => {
           <FaGithub />
         </Link>
       </div>
-      <div className="mt-[-12%] mb-6 w-[18em] lg:w-[31em]">
+      <div className="mt-[-10%] md:mt-[-6%] lg:mt-[-12%] mb-6 w-[18em] lg:w-[31em]">
         <h2 className="text-lg font-semibold">{project.title}</h2>
         <p className="pb-2">{project.description}</p>
         <p className="text-cyan-800">{project.tech}</p>
