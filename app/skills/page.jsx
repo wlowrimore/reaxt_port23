@@ -42,7 +42,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="my-12 px-6 lg:my-24">
+      <div className="py-12 px-6 lg:my-24">
         <p className="text-xl tracking-wide leading-relaxed">
           Listed here, you will find a handful of frameworks, libraries, and
           programming languages. This list is limited for the purpose of

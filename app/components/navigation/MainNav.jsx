@@ -22,7 +22,7 @@ const MainNav = () => {
     "my-8 lg:my-0 mx-2 tracking-wider text-gray-300 border-t border-gray-300";
 
   return (
-    <header className="dark:bg-black z-99 top-0 bg-cyan-800 height-[10em] lg:w-full lg:border-b border-cyan-900 lg:flex flex-col xl:flex-row lg:px-20 justify-around">
+    <header className="dark:bg-black z-99 top-0 bg-cyan-800 height-[10em] lg:w-full lg:border-b border-cyan-900 lg:flex flex-col xl:flex-row lg:px-20 justify-around py-3">
       <div className="flex flex-col justify-end text-center lg:mb-6 lg:mt-6 lg:text-start">
         <Link href="/">
           <h1 className="text-2xl lg:text-4xl text-white  hover:text-gray-300 tracking-wide">
@@ -35,7 +35,7 @@ const MainNav = () => {
       </div>
 
       <div className="lg:hidden cursor-pointer fixed z-99 right-4 top-1 text-gray-300">
-        <FiMenu className="text-2xl" onClick={() => setOpen(!open)} />
+        <FiMenu className="text-2xl mt-3" onClick={() => setOpen(!open)} />
       </div>
       <nav
         onClick={() => setOpen(false)}
@@ -49,7 +49,7 @@ const MainNav = () => {
           className="lg:hidden cursor-pointer fixed z-99 right-4 top-1 text-gray-300"
           onClick={() => setOpen(false)}
         >
-          <FiMenu className="text-2xl" />
+          <FiMenu className="text-2xl mt-3" />
         </span>
         <ul className="lg:ml-[-1%] flex flex-col md:flex-row md:space-y-0 space-y-6 mb-6 md:mb-0 text-center text-white">
           <li onClick={() => setOpen(false)}>
@@ -143,7 +143,7 @@ const MainNav = () => {
             </Link>
           </li>
         </ul>
-        <span className="fixed right-5 top-10 lg:right-14 lg:top-6">
+        <span className="fixed right-4 top-10 lg:right-14 lg:top-6">
           <DarkModeBtn />
         </span>
       </nav>

@@ -21,7 +21,7 @@ const Development = () => {
 
   return (
     <>
-      <section className="md:grid grid-cols-2 gap-3 mt-[2%] mb-10 lg:mx-20 ">
+      <section className="md:grid grid-cols-2 gap-3 mb-10 lg:mx-20 ">
         <div>
           <h2 className="text-2xl lg:text-3xl text-cyan-800 pt-6 lg:py-1 lg:text-white text-center lg:bg-cyan-800 tracking-wide">
             Professional Development
