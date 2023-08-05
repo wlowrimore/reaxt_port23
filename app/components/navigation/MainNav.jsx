@@ -19,8 +19,7 @@ const MainNav = () => {
   const linkStyle =
     "my-8 lg:my-0 mx-2 tracking-wider hover:text-gray-300 border-t border-transparent hover:border-t hover:border-gray-300";
   const activeStyle =
-    linkStyle +
-    "my-8 lg:my-0 mx-2 tracking-wider text-gray-300 border-t border-transparent border-t border-gray-300";
+    "my-8 lg:my-0 mx-2 tracking-wider text-gray-300 border-t border-gray-300";
 
   return (
     <header className="dark:bg-black z-99 top-0 bg-cyan-800 height-[10em] lg:w-full lg:border-b border-cyan-900 lg:flex flex-col xl:flex-row lg:px-20 justify-around">

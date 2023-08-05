@@ -8,7 +8,7 @@ const About = () => {
     <>
       <section className="md:flex md:flex-col 2xl:grid 2xl:grid-cols-2 gap-2 lg:my-[10%] xl:mx-20">
         <div className="lg:border-l lg:border-r lg:border-b border-cyan-900">
-          <h2 className="py-8 lg:block lg:mt-0 lg:mb-0 text-cyan-700 md:text-white lg:bg-cyan-800 text-xl lg:text-3xl text-center pl-1 tracking-wide">
+          <h2 className="py-8 lg:py-1 lg:block lg:mt-0 lg:mb-0 text-cyan-700 md:text-white lg:bg-cyan-800 text-xl lg:text-3xl text-center pl-1 tracking-wide">
             A Little Background
           </h2>
           <article className="lg:pt-8 px-4 lg:px-8 text-lg tracking-wide">
