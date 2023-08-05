@@ -7,7 +7,7 @@ const renderLoader = () => <p>Loading Images...</p>;
 const About = () => {
   return (
     <>
-      <section className="md:flex md:flex-col 2xl:grid 2xl:grid-cols-2 gap-2 lg:my-[10%] xl:mx-20">
+      <section className="md:flex md:flex-col 2xl:grid 2xl:grid-cols-2 gap-2 lg:my-[10%]">
         <div className="lg:border-l lg:border-r lg:border-b border-cyan-900">
           <h2 className="py-1 lg:py- lg:block lg:mt-0 lg:mb-0 text-cyan-700 md:text-white lg:bg-cyan-800 text-xl lg:text-3xl text-center pl-1 tracking-wide">
             A Little Background
@@ -15,7 +15,6 @@ const About = () => {
           <MainBio />
         </div>
         <div>
-          {/* <div className="flex justify-center items-center"> */}
           <div className="flex flex-col p-2 md:flex-row 2xl:h-full border-cyan-900 bg-cyan-800">
             <Suspense fallback={renderLoader()}>
               <Image
@@ -41,7 +40,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* </div> */}
       </section>
     </>
   );
