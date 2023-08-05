@@ -1,0 +1,83 @@
+[
+  {
+    "id": "tech1",
+    "name": "React.js"
+  },
+  {
+    "id": "tech2",
+    "name": "Next.js"
+  },
+  {
+    "id": "tech3",
+    "name": "Django"
+  },
+  {
+    "id": "tech4",
+    "name": "Python"
+  },
+  {
+    "id": "tech5",
+    "name": "HTML5"
+  },
+  {
+    "id": "tech6",
+    "name": "CSS3"
+  },
+  {
+    "id": "tech7",
+    "name": "JavaScript"
+  },
+  {
+    "id": "tech8",
+    "name": "TailwindCSS"
+  },
+  {
+    "id": "tech9",
+    "name": "Bootstrap"
+  },
+  {
+    "id": "tech10",
+    "name": "Ruby on Rails"
+  },
+  {
+    "id": "tech11",
+    "name": "Node.js"
+  },
+  {
+    "id": "tech12",
+    "name": "Express.js"
+  },
+  {
+    "id": "tech13",
+    "name": "GraphQL"
+  },
+  {
+    "id": "tech14",
+    "name": "PostgreSQL"
+  },
+  {
+    "id": "tech15",
+    "name": "Postman"
+  },
+  {
+    "id": "tech16",
+    "name": "Vue.js"
+  },
+  {
+    "id": "tech17",
+    "name": "Firebase"
+  },
+  {
+    "id": "tech18",
+    "name": "REST API"
+  },
+  {
+    "id": "tech19",
+    "name": "jQuery"
+  },
+  {
+    "id": "tech20",
+    "name": "Redux"
+  }
+]
+          

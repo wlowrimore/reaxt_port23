@@ -25,7 +25,7 @@ const Development = () => {
           <h2 className="text-2xl lg:text-3xl text-cyan-800 pt-6 lg:text-white text-center lg:bg-cyan-800 tracking-wide">
             Professional Development
           </h2>
-          <article className="py-4 lg:py-8 px-8 text-lg lg:text-xl border-l border-r border-b border-cyan-900 tracking-wide">
+          <article className="py-4 lg:py-8 px-8 text-lg lg:text-xl md:border-l md:border-r md:border-b border-cyan-900 tracking-wide">
             <p className="pb-4">
               I attended and graduated from Vanderbilt University coding boot
               camp (2021 - 2022), completing the full-stack web development
@@ -46,7 +46,7 @@ const Development = () => {
             </p>
           </article>
         </div>
-        <div className="flex justify-center items-center pr-4">
+        <div className="flex justify-center items-center md:pr-4">
           <div className="p-4 bg-cyan-800">
             <Suspense fallback={renderLoader()}>
               <Image

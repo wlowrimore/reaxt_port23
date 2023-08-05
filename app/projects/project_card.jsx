@@ -8,7 +8,7 @@ const renderLoader = () => <p>Loading Images...</p>;
 const ProjectCard = ({ project }) => {
   return (
     <>
-      <div className="my-6 h-[16.78em] border border-cyan-800 rounded-md shadow-lg shadow-black overflow-hidden">
+      <div className="my-6 md:h-[16.78em] border border-cyan-800 rounded-md shadow-lg shadow-black overflow-hidden">
         <Suspense fallback={renderLoader()}>
           <Image
             src={project.image}

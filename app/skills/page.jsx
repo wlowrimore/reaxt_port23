@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <section className="lg:grid grid-cols-2 gap-12">
       <div className="lg:flex flex-col">
-        <h2 className="text-2xl lg:text-3xl pt-6 tracking-wide text-center text-cyan-800 lg:bg-cyan-800 lg:text-white">
+        <h2 className="text-2xl lg:text-3xl pt-6 tracking-wide text-center text-cyan-700 lg:bg-cyan-800 lg:text-white">
           Languages & Technologies
         </h2>
         <div className="flex justify-center lg:pt-8 lg:p-6 lg:border border-cyan-900">

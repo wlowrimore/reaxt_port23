@@ -1,13 +1,20 @@
-const Footer = () => {
+import Marquee from "react-fast-marquee";
+import FooterMarquee from "./footer_marquee";
+
+const Footer = (tech) => {
   return (
-    <footer className="flex justify-between mx-[6.7%] text-center">
-      <div>
-        <h3>Created by William Lowrimore</h3>
-      </div>
-      <div>
-        <p>Copyright &copy; 2023 William Lowrimore. All rights reserved.</p>
-      </div>
-    </footer>
+    <Marquee speed="30">
+      <footer
+        className="lg:text-xl px-10 text-white text-opacity-30 py-5 flex justify-between space-x-12 lg:space-x-28 dark:bg-black bg-cyan-900"
+        aria-hidden="true"
+      >
+        <FooterMarquee tech={tech} />
+        <FooterMarquee tech={tech} />
+        <FooterMarquee tech={tech} />
+        <FooterMarquee tech={tech} />
+        <FooterMarquee tech={tech} />
+      </footer>
+    </Marquee>
   );
 };
 export default Footer;
