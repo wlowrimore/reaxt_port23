@@ -135,7 +135,7 @@ const MainNav = () => {
           </li>
           <li className="hover:text-gray-300 hover:cursor-pointer border-t border-transparent rounded-full hover:border-t hover:border-gray-300 pt-2 px-1 text-xl">
             <Link
-              href="https://m.me/wlowrimore"
+              href="https://m.me/will.lowrimore"
               target="_blank"
               rel="noopener noreferrer"
             >
