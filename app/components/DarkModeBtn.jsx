@@ -37,4 +37,5 @@ const DarkModeBtn = () => {
     </div>
   );
 };
+
 export default DarkModeBtn;

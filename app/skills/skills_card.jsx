@@ -21,4 +21,5 @@ const SkillsCard = ({ skill }) => {
     </>
   );
 };
+
 export default SkillsCard;
