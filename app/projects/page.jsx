@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <section className="px-4 lg:pl-6 lg:my-6">
-      <h2 className="text-xl pt-4 lg:pt-0 lg:text-3xl text-center text-cyan-700 md:text-white lg:bg-cyan-800 tracking-wide lg:mx-72">
+      <h2 className="text-xl py-1 lg:pt-0 lg:text-3xl text-center text-cyan-700 md:text-white lg:bg-cyan-800 tracking-wide lg:mx-72">
         My Work
       </h2>
       <p className="flex lg:text-xl justify-center tracking-wide pt-3">
