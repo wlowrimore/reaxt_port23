@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# William Lowrimore | Software Engineer | Nashville, TN
 
-## Getting Started
+Hello, and welcome to my portfolio.  In this digital document, you will find most of what you should know about me and my engineering qualifications.  Keep in mind that this portfolio is a summary of my work and studies over the past 2 years.  Some projects either did not make the cut, or they are projects that are privately owned by larger ( some enterprise ) companies and are not available to the public.<br />
 
-First, run the development server:
+Have a look at my code here on github and be sure to visit the working portfolio on my website: [www.williamlowrimore.com](https://www.williamlowrimore.com). Thanks for visiting!
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<img src='public/images/home_page.png' alt='home page example' /><br />
+<hr /><br />
+<img src='public/images/home_page_dark.png' alt='home page example' /><br />
+<hr /><br />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contact Information
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[wlowrimore@gmail.com](mailto://wlowrimore@gmail.com)<br />
+[www.linkedin.com](https://www.linkedin.com/in/william-lowrimore-dev)<br />
+[www.fakenamedev@gmail.com](mailto://fakenamedev@gmail.com)<br /><br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies Used for This Portfolio
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+React<br /> 
+React Hooks<br /> 
+React Icons <br />
+React Fast Marquee<br />
+Next.js<br />
+Tailwind CSS<br />
+Vanilla CSS<br />
+VS Code<br />
+NPM & Yarn<br /><br />
+<hr />
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+&copy; Copyright 2023 William Lowrimore | Fake Name Development. All Rights Reserved

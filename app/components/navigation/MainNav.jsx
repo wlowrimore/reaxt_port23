@@ -143,7 +143,7 @@ const MainNav = () => {
             </Link>
           </li>
         </ul>
-        <span className="fixed right-5 top-10 lg:right-12 lg:top-6">
+        <span className="fixed right-5 top-10 lg:right-14 lg:top-6">
           <DarkModeBtn />
         </span>
       </nav>
