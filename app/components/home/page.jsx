@@ -14,7 +14,7 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <main className="min-h-screen bg-custombg1 bg-no-repeat bg-fixed bg-cover bg-center py-16 md:py-[12rem] lg:py-8">
+    <main className="min-h-screen bg-custombg1 bg-no-repeat bg-fixed bg-cover bg-center pt-8 md:py-[6rem] lg:py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:mt-[10rem] xl:ml-[5rem] 2xl:mx-[20rem] 2xl:mt-[18rem]">
         {/* left section of grid */}
 
