@@ -112,7 +112,7 @@ const Header = () => {
         <nav className="flex justify-center items-center"></nav>
         <ul className="flex justify-center items-center py-2">
           <li className="px-4 text-center text-white">
-            <Link href="#home">
+            <Link onClick={handleClick} href={"#home"}>
               <Image
                 src={Home}
                 alt="home page link"
@@ -123,7 +123,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="px-4 text-center text-white">
-            <Link href="#about">
+            <Link onClick={handleClick} href={"#about"}>
               <Image
                 src={About}
                 alt="about page link"
@@ -134,7 +134,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="px-4 text-center text-white">
-            <Link href="#projects">
+            <Link onClick={handleClick} href={"#projects"}>
               <Image
                 src={Projects}
                 alt="projects page link"
@@ -145,7 +145,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="px-4 text-center text-white">
-            <Link href="#contact">
+            <Link onClick={handleClick} href={"#contact"}>
               <Image
                 src={Contact}
                 alt="contact page link"
