@@ -22,12 +22,12 @@ const Projects = () => {
   return (
     <main
       id="projects"
-      className="min-h-screen bg-custombg5 bg-fixed bg-no-repeat bg-cover bg-center flex flex-col justify-center"
+      className="min-h-screen bg-custombg5 bg-fixed bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center mx-auto"
     >
-      <div className="py-4">
-        {/* <h2 className="text-orange-400 rounded-sm mx-4 px-2 py-2 bg-gray-800 uppercase">
+      <section className="py-4 lg:py-20">
+        <h2 className="text-orange-400 md:text-2xl rounded-md mx-4 2xl:mx-56 pl-2 py-2 bg-gray-800 uppercase">
           projects
-        </h2> */}
+        </h2>
         <div className="flex justify-center items-center px-4 py-6">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 2xl:mx-52">
             {projects.map((project, index) => (
@@ -46,7 +46,7 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };

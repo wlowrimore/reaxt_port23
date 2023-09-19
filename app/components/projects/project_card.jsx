@@ -26,20 +26,23 @@ const ProjectCard = ({ project }) => {
               width={1000}
               height={1000}
               alt={project.title}
-              className="aspect-4/3 cursor-pointer hover:opacity-5 border-white rounded-md max-w-[18rem] max-h-[18rem] min-h-[16rem] min-w-[16rem]"
+              className="transform cursor-pointer border border-white rounded-md transition hover:opacity-20 2s ease-linear"
             />
           </Suspense>
-          {/* <div className=" project-info">
-              <Image
-                src={Live}
-                alt="site link"
-                width={500}
-                height={500}
-                className="text-gray-200 w-12"
-              />
-              <h1 className="">{project.description}</h1>
-            </div> */}
         </Link>
+      </div>
+
+      <div className="project-info-container">
+        <div className="project-info">
+          <Image
+            src={Live}
+            alt="site link"
+            width={500}
+            height={500}
+            className="text-gray-200 w-14"
+          />
+          <h1 className="">{project.description}</h1>
+        </div>
       </div>
     </>
   );

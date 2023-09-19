@@ -1,23 +1,43 @@
-/* .card {
-  background-color: rgba(31, 41, 55, 0);
-  width: 0%;
+.card {
+  max-width: 26rem;
+  height: auto;
+  border: px solid #e5e5e5;
+  border-radius: 8px;
 }
 
-.card:hover {
+/* .card:hover {
   background-color: rgba(31, 41, 55, 0.4);
   width: 100%;
   transition: width 200ms ease-in-out;
+} */
+
+.project-info-container {
+  position: absolute;
+  max-width: 26rem;
+  top: 42%;
+  left: 35%;
+  z-index: -1;
 }
 
 .project-info {
-  position: absolute;
-  top: 35%;
-  width: 100%;
-  color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: center; 
-  z-index: -1; 
+  width: 26rem;
+  color: white;
+  max-width: 8rem; 
+}
+
+/* .project-info img {
+  
+  color: white;   
+   
 } */
+
+.project-info h1 {
+  display: flex;
+  justify-content: center;
+  width: 26rem;
+}
 

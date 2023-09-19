@@ -5,7 +5,7 @@
     "repo_url": "https://github.com/wlowrimore/studio_services",
     "deployed_url": "https://studio-services.vercel.app/",
     "image": "/project_images/imperialStudios.webp",
-    "description": "NextJS (React) | TailwindCSS",
+    "description": "NextJS ~ Tailwind",
     "tech": "React | NextJS | Tailwind CSS | Google Maps API | Responsive Carousel"
   },
   {
@@ -14,7 +14,7 @@
     "repo_url": "https://github.com/wlowrimore/email_ad_layout",
     "deployed_url": "https://allegiant-email-ad.vercel.app/",
     "image": "/project_images/allegiant_ad.webp",
-    "description": "HTML | CSS",
+    "description": "HTML ~ CSS",
     "tech": "HTML5 | CSS3"
   },
   {
@@ -23,7 +23,7 @@
     "repo_url": "https://github.com/wlowrimore/berman_photo_6_22",
     "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
     "image": "/project_images/sayreJoan.webp",
-    "description": "HTML | CSS",
+    "description": "HTML ~ CSS",
     "tech": "HTML5 | CSS3"
   }
 ]
