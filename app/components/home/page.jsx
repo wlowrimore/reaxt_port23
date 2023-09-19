@@ -79,7 +79,7 @@ const Home = () => {
 
       {/* list of traits */}
 
-      <div className="flex justify-center w-full lg:pl-[1rem] lg:pr-[2.2rem] 2xl:pl-[14.5rem] 2xl:pr-[22.7rem]">
+      <div className="flex justify-center w-full lg:pl-[1rem] lg:pr-[2.2rem] 2xl:pl-[14.5rem] 2xl:pr-[20rem]">
         <ul className="w-full flex flex-col lg:flex-row items-center justify-center mx-4 my-6 text-[1.3rem] tracking-wide text-gray-100 uppercase space-y-2">
           <Fade cascade direction="left" damping={1} triggerOnce="true">
             <li className="flex w-full justify-center mt-2">
