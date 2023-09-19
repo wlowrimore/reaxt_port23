@@ -24,7 +24,7 @@ const About = () => {
               alt="William with family"
               className="md:w-full lg:w-3/4 lg:mt-[-8rem] rounded-sm shadow-md shadow-slate-600"
             />
-            <div className="absolute w-32 md:w-64 z-10 left-[-7.3rem] md:left-[-13rem] lg:left-[-17rem] top-[3rem] md:top-[6.5rem] lg:top-6">
+            <div className="absolute w-32 md:w-64 z-10 left-[-7.3rem] md:left-[-13rem] lg:left-[-17rem] top-[4rem] md:top-[6.5rem] lg:top-6">
               <Image
                 src={SelfGig}
                 width={500}
