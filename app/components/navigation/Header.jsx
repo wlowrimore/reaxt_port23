@@ -33,8 +33,8 @@ const Header = () => {
       <div
         className={
           color
-            ? "hidden md:flex headerNav headerNav-bg py-[1rem] 2xl:pl-[15rem] 2xl:pr-[21rem]"
-            : "hidden md:flex headerNav py-[1rem] 2xl:pl-[15rem] 2xl:pr-[21rem]"
+            ? "hidden md:flex headerNav headerNav-bg py-[1rem]"
+            : "hidden md:flex headerNav py-[1rem]"
         }
       >
         <div className="hidden md:flex md:ml-[4rem] lg:ml-[4.5rem] xl:ml-[9rem] flex-col w-full">
@@ -81,7 +81,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   download="swfr_resume_8-23.pdf"
-                  className="btmbrdr hidden md:block uppercase md:px-2 text-lg text-gray-200 tracking-wider"
+                  className="btmbrdr"
                 >
                   resume
                 </Link>
