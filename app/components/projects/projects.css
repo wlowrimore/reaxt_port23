@@ -1,0 +1,23 @@
+.card {
+  background-color: rgba(31, 41, 55, 0);
+  width: 0%;
+}
+
+.card:hover {
+  background-color: rgba(31, 41, 55, 0.4);
+  width: 100%;
+  transition: width 200ms ease-in-out;
+}
+
+.project-info {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  z-index: -1; 
+}
+

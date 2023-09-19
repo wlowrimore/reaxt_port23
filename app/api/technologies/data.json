@@ -1,83 +1,88 @@
 [
   {
     "id": "tech1",
-    "name": "React.js"
+    "name": "ReactJS",
+    "image": "/images/techLogos/svg/react.svg"
   },
   {
     "id": "tech2",
-    "name": "Next.js"
+    "name": "NextJS",
+    "image": "/images/techLogos/svg/next.svg"
   },
   {
     "id": "tech3",
-    "name": "Django"
+    "name": "Django",
+    "image": "/images/techLogos/svg/django.svg"
   },
   {
     "id": "tech4",
-    "name": "Python"
+    "name": "HTML5",
+    "image": "/images/techLogos/svg/html.svg"
   },
   {
     "id": "tech5",
-    "name": "HTML5"
+    "name": "CSS3",
+    "image": "/images/techLogos/svg/css.svg"
   },
   {
     "id": "tech6",
-    "name": "CSS3"
+    "name": "JavaScript",
+    "image": "/images/techLogos/svg/javascript.svg"
   },
   {
     "id": "tech7",
-    "name": "JavaScript"
+    "name": "TailwindCSS",
+    "image": "/images/techLogos/svg/tailwind.svg"
   },
   {
     "id": "tech8",
-    "name": "TailwindCSS"
+    "name": "Sass",
+    "image": "/images/techLogos/svg/sass.svg"
   },
   {
     "id": "tech9",
-    "name": "Bootstrap"
+    "name": "VueJS",
+    "image": "/images/techLogos/svg/vue.svg"
   },
   {
     "id": "tech10",
-    "name": "Ruby on Rails"
+    "name": "Postman",
+    "image": "/images/techLogos/svg/postman.webp"
   },
   {
     "id": "tech11",
-    "name": "Node.js"
+    "name": "Firebase",
+    "image": "/images/techLogos/svg/firebase.svg"
   },
   {
     "id": "tech12",
-    "name": "Express.js"
+    "name": "API",
+    "image": "/images/techLogos/svg/api.svg"
   },
   {
     "id": "tech13",
-    "name": "GraphQL"
+    "name": "Redux",
+    "image": "/images/techLogos/svg/redux.svg"
   },
   {
     "id": "tech14",
-    "name": "PostgreSQL"
+    "name": "PostgreSQL",
+    "image": "/images/techLogos/svg/postgres.webp"
   },
   {
     "id": "tech15",
-    "name": "Postman"
+    "name": "Gimp",
+    "image": "/images/techLogos/svg/gimp.svg"
   },
   {
     "id": "tech16",
-    "name": "Vue.js"
+    "name": "NodeJS",
+    "image": "/images/techLogos/svg/node.svg"
   },
   {
     "id": "tech17",
-    "name": "Firebase"
-  },
-  {
-    "id": "tech18",
-    "name": "REST API"
-  },
-  {
-    "id": "tech19",
-    "name": "jQuery"
-  },
-  {
-    "id": "tech20",
-    "name": "Redux"
+    "name": "Git",
+    "image": "/images/techLogos/svg/git.svg"
   }
 ]
           
