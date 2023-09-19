@@ -13,6 +13,7 @@
 .headerNav h1 {
   letter-spacing: 1.3px;
   font-size: 1.3rem;
+  /* padding-left: 3rem; */
 }
 
 .headerNav-bg {  
@@ -73,7 +74,7 @@
 .btmbrdr:after {
   display:block;
   content: '';
-  width: inherit;
+  /* width: inherit; */
   border-bottom: solid 3px #fed7aa;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;

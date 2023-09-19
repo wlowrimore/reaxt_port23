@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import { Poppins } from "next/font/google";
 import Header from "./components/navigation/Header";
 import Footer from "./components/footer/Footer";
+import ToTheTop from "./components/ToTheTop";
 
 const poppins = Poppins({
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.className}`}>
         <Header />
         <div className="h-screen w-full">{children}</div>
+        <ToTheTop />
         <div className="hidden md:flex">
           <Footer />
         </div>
