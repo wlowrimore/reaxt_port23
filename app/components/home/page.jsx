@@ -75,9 +75,9 @@ const Home = () => {
 
       {/* list of traits */}
       <div className="flex justify-center items-center">
-        <ul className="flex flex-col lg:flex-row lg:space-x-12 lg:pt-12 justify-center items-center pt-6 text-[1.2rem] tracking-wider text-gray-100 leading-relaxed uppercase">
+        <ul className="flex flex-col md:flex-row md:space-x-12 md:pt-16 xl:pt-20 md:pr-12 justify-center items-center pt-6 text-[1.2rem] tracking-wider text-gray-100 leading-relaxed uppercase">
           <Fade cascade direction="left" damping={1} triggerOnce="true">
-            <li className="flex">
+            <li className="flex md:text-sm xl:text-lg">
               <Image
                 priority
                 src={CodeIcon}
@@ -90,7 +90,7 @@ const Home = () => {
             </li>
           </Fade>
           <Fade cascade direction="right" damping={1} triggerOnce="true">
-            <li className="flex">
+            <li className="flex md:text-sm xl:text-lg">
               <Image
                 priority
                 src={DesignIcon}
@@ -103,7 +103,7 @@ const Home = () => {
             </li>
           </Fade>
           <Fade cascade direction="left" damping={0.3} triggerOnce="true">
-            <li className="flex">
+            <li className="flex md:text-sm xl:text-lg">
               <Image
                 priority
                 src={TeamIcon}
