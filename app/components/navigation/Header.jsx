@@ -1,7 +1,7 @@
 "use client";
 
 import "./header.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -28,6 +28,17 @@ const Header = () => {
     window.addEventListener("scroll", changeHeaderColor);
   }, []);
 
+  const handleClick = (e) => {
+    e.preventDefault();
+    setToggle(!toggle);
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header>
       <div
@@ -38,11 +49,7 @@ const Header = () => {
         }
       >
         <div className="hidden md:flex md:ml-[4rem] lg:ml-[4.5rem] xl:ml-[9rem] flex-col w-full">
-          <h1 className="w-full text-white text-bold">
-            <Link href="#home" className=" hover:text-orange-200">
-              william_lowrimore
-            </Link>
-          </h1>
+          <h1 className="w-full text-white text-bold">william_lowrimore</h1>
         </div>
         <nav className="flex justify-end mr-5 md:mr-[3rem] lg:mr-[5rem] xl:mr-[10rem]">
           <h3
@@ -56,22 +63,30 @@ const Header = () => {
           <div className="fixed top-[4.5rem] right-1">
             <ul className="flex justify-center items-center py-2">
               <li className="px-4 uppercase text-center">
-                <Link className="btmbrdr" href="#home">
+                <Link onClick={handleClick} className="btmbrdr" href={"#home"}>
                   home
                 </Link>
               </li>
               <li className="px-4 uppercase text-center">
-                <Link className="btmbrdr" href="#about">
+                <Link onClick={handleClick} className="btmbrdr" href={"#about"}>
                   about
                 </Link>
               </li>
               <li className="px-4 uppercase text-center">
-                <Link className="btmbrdr" href="#projects">
+                <Link
+                  onClick={handleClick}
+                  className="btmbrdr"
+                  href={"#projects"}
+                >
                   projects
                 </Link>
               </li>
               <li className="px-4 uppercase text-center">
-                <Link className="btmbrdr" href="#contact">
+                <Link
+                  onClick={handleClick}
+                  className="btmbrdr"
+                  href={"#contact"}
+                >
                   contact
                 </Link>
               </li>
@@ -81,6 +96,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   download="swfr_resume_8-23.pdf"
+                  onClick={() => setToggle(!toggle)}
                   className="btmbrdr"
                 >
                   resume
