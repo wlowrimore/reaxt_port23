@@ -43,7 +43,7 @@ const Map = ({ address }) => {
   return (
     <div
       id="map"
-      className="w-[320px] h-[200px] px-4 md:my-4 md:w-[690px] md:h-[375px] lg:w-[500px] 2xl:w-[700px] 2xl:h-[465px]"
+      className="w-[325px] h-[200px] md:my-4 md:w-[690px] md:h-[375px] lg:w-[500px] 2xl:w-[700px] 2xl:h-[465px]"
     ></div>
   );
 };

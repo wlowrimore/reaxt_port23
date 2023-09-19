@@ -93,7 +93,7 @@ const Contact = () => {
       {isLoading && (
         <h5 className="text-xl text-center text-blue-100">Sending...</h5>
       )}
-      <div className="grid lg:grid-cols-2">
+      <div className="grid lg:grid-cols-2 mb-14">
         <div className="flex flex-col justify-center lg:mx-4">
           <Map address={address} />
           <div className="flex flex-col items-center justify-center my-8 2xl:mt-12">
