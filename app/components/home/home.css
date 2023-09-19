@@ -1,5 +1,12 @@
 .self {
-  width: 18rem;
+  width: 20rem;
   height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .self {
+    width: 16rem;
+    height: auto;
+  }
 }
 

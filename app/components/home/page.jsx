@@ -17,12 +17,12 @@ const Home = () => {
     <main className="min-h-screen bg-custombg1 bg-no-repeat bg-fixed bg-cover bg-center flex flex-col justify-center items-center">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-40 mx-auto">
         {/* left/top section of grid */}
-        <section className="flex flex-col justify-center items-center lg:items-start mx-auto">
+        <section className="flex flex-col justify-center items-center md:items-start lg:items-start mx-auto">
           <div>
             <p className="text-2xl text-center md:text-start md:text-3xl xl:text-5xl text-orange-400">
               Hello, I&apos;m
             </p>
-            <h1 className="text-2xl md:text-4xl xl:text-5xl pb-4 text-gray-200">
+            <h1 className="text-2xl md:text-4xl md:pr-2 xl:text-5xl pb-4 text-gray-200">
               William&nbsp;<span className="text-orange-400">Lowrimore</span>
             </h1>
           </div>
@@ -38,7 +38,7 @@ const Home = () => {
           <DescAnimate />
 
           {/* buttons group */}
-          <div className="flex h-full items-center 2xl:mt-8">
+          <div className="flex h-full items-center md:justify-start">
             <button
               href="/contact"
               type="button"

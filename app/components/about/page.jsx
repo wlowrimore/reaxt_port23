@@ -13,24 +13,18 @@ import Bio from "./Bio";
 const About = () => {
   return (
     <div className="min-h-screen bg-custombg2 bg-fixed bg-no-repeat bg-cover flex flex-col justify-center bg-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 2xl:mx-[24rem]">
-        {/* left side grid */}
-        <section className="flex items-center">
-          <Fade
-            cascade
-            direction="up"
-            damping={1}
-            triggerOnce="true"
-            className="flex flex-col items-start relative 2xl:right-2"
-          >
+      <div className="grid grid-cols-1 lg:grid-cols-2 px-4 py-4 md:py-6 lg:py-12">
+        {/* left/top side grid */}
+        <section className="flex items-center md:justify-center ">
+          <Fade cascade direction="up" damping={1} triggerOnce="true">
             <Image
               src={FamPenguin}
               width={500}
               height={500}
               alt="William with family"
-              className="rounded-md shadow-md shadow-slate-600"
+              className="md:w-full lg:w-3/4 lg:mt-[-8rem] rounded-sm shadow-md shadow-slate-600"
             />
-            <div className="absolute w-44 2xl:w-96 z-10 left-[-11rem] 2xl:left-[-14rem] top-[6rem] 2xl:top-[5rem]">
+            <div className="absolute w-32 md:w-64 z-10 left-[-7.3rem] md:left-[-13rem] lg:left-[-17rem] top-[3rem] md:top-[6.5rem] lg:top-6">
               <Image
                 src={SelfGig}
                 width={500}
@@ -42,9 +36,9 @@ const About = () => {
           </Fade>
         </section>
 
-        {/* left side grid */}
-        <section className="2xl:mx-8 my-4">
-          <h2 className="2xl:text-xl text-orange-400 md:rounded-md pl-2 py-2 md:mx-3 bg-gray-800 uppercase">
+        {/* right/bottom side grid */}
+        <section className="py-4 lg:py-20 xl:pr-[10rem]">
+          <h2 className="text-orange-400 md:text-2xl md:w-full rounded-md pl-2 py-2 bg-gray-800 uppercase">
             About
           </h2>
           <Fade
@@ -54,7 +48,7 @@ const About = () => {
             className="flex flex-wrap mt-4 w-full overflow-y-auto"
           >
             <Bio />
-            <div className="mx-4 lg:grid grid-cols-2">
+            <div className="hidden md:block lg:grid grid-cols-2">
               <div className="flex flex-col">
                 <div className="flex items-center">
                   <h2 className="2xl:text-xl font-semibold">Name:</h2>&nbsp;
@@ -84,7 +78,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-start mx-4 text-center 2xl:pt-6">
+            <div className="hidden md:block justify-start text-center 2xl:pt-6">
               <p className="2xl:text-[1.5rem] font-semibold">
                 Full Stack Web Development Certification
               </p>
