@@ -1,0 +1,20 @@
+.spin {
+  width: 2.5rem;
+  opacity: 0.5;
+}
+
+.spin-icon:hover {
+  border: 1px solid #2dd4bf;
+  border-radius: 50%;
+  background-color: #fb923c;
+  animation: rotation 400ms linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

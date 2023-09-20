@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import ToHome from "../../public/images/svg/to_the_top.svg";
 
+import "./ttt.css";
+
 const handleClick = (e) => {
   e.preventDefault();
 
@@ -28,7 +30,7 @@ const ToTheTop = () => {
           alt="back to home button"
           width={500}
           height={500}
-          className="w-10 opacity-50"
+          className="w-12 opacity-80 spin-icon"
         />
       </Link>
     </div>

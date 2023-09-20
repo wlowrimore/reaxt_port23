@@ -13,6 +13,16 @@ import TeamIcon from "/public/images/svg/team.svg";
 import "./home.css";
 
 const Home = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <main className="min-h-screen bg-custombg1 bg-no-repeat bg-fixed bg-cover bg-center flex flex-col justify-center items-center">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-40 mx-auto">
@@ -39,13 +49,13 @@ const Home = () => {
 
           {/* buttons group */}
           <div className="flex h-full items-center md:justify-start">
-            <button
-              href="/contact"
-              type="button"
-              className="hidden md:block md:bg-orange-400 rounded-sm text-xl text-gray-950 font-semibold hover:bg-transparent hover:text-orange-400 px-1 uppercase"
+            <Link
+              onClick={handleClick}
+              href={"#contact"}
+              className="hidden transform md:block md:bg-orange-400 rounded-sm text-xl text-gray-950 font-semibold transition hover:bg-transparent hover:text-orange-400 px-1 duration-500 uppercase"
             >
               reach out
-            </button>
+            </Link>
             &nbsp;
             <button type="button">
               <Link
@@ -53,7 +63,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 download="swfr_resume_8-23.pdf"
-                className="hidden md:block uppercase md:px-2 text-lg text-gray-200 tracking-wider hover:text-orange-400"
+                className="hidden transform md:block uppercase md:px-2 text-lg text-gray-200 tracking-wider transition hover:text-orange-400 duration-300"
               >
                 get resume
               </Link>
