@@ -2,7 +2,7 @@ const Bio = () => {
   return (
     <p className="xl:text-xl">
       I am a <strong>Frontend Developer / Engineer</strong> from Nashville, TN.
-      My certifiation is in <strong>Full Stack Web Development</strong>
+      My certifiation is in <strong>Full Stack Web Development </strong>
       where I have studied and contributed to MERN, PERN, Django | Python and
       Ruby on Rails real-world and study projects (respectively). However, I
       found that my focus was being drawn in toward{" "}
