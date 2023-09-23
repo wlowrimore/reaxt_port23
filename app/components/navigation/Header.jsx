@@ -11,7 +11,7 @@ import Home from "../../../public/images/svg/home.svg";
 import About from "../../../public/images/svg/about.svg";
 import Projects from "../../../public/images/svg/projects.svg";
 import Contact from "../../../public/images/svg/contact.svg";
-import Resume from "../../../public/images/svg/lowrimore_william_resume.pdf";
+import Resume from "../../../public/images/svg/pdf.svg";
 
 const Header = () => {
   const [color, setColor] = useState(false);
