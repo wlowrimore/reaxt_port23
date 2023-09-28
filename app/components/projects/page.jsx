@@ -29,7 +29,7 @@ const Projects = () => {
           projects
         </h2>
         <div className="flex justify-center items-center px-4 py-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 2xl:mx-52">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 2xl:mx-52">
             {projects.map((project, index) => (
               <div key={`card-${index}`} className="flex mb-8">
                 <Fade cascade direction="up" damping={2} triggerOnce="true">

@@ -14,16 +14,25 @@
     "repo_url": "https://github.com/wlowrimore/email_ad_layout",
     "deployed_url": "https://allegiant-email-ad.vercel.app/",
     "image": "/project_images/allegiant_ad.webp",
-    "description": "HTML ~ CSS",
+    "description": "Email Ad HTML",
     "tech": "HTML5 | CSS3"
   },
   {
     "id": "p3",
     "title": "Sayre Joan Photography",
-    "repo_url": "https://github.com/wlowrimore/berman_photo_6_22",
-    "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
+    "repo_url": "https://github.com/wlowrimore/sj_photo_23",
+    "deployed_url": "https://sayrejoanphotograpy.vercel.app/",
     "image": "/project_images/sayreJoan.webp",
-    "description": "HTML ~ CSS",
+    "description": "ReactJS ~ TailWind",
+    "tech": "HTML5 | CSS3"
+  },
+  {
+    "id": "p3",
+    "title": "Nash Clothing",
+    "repo_url": "https://github.com/wlowrimore/nash-clothing",
+    "deployed_url": "https://main--warm-marshmallow-8cdfc9.netlify.app/auth",
+    "image": "/project_images/nash.webp",
+    "description": "ReactJS ~ GraphQL Ecommerce",
     "tech": "HTML5 | CSS3"
   }
 ]

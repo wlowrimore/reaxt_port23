@@ -10,11 +10,6 @@
     "image": "/images/techLogos/svg/next.svg"
   },
   {
-    "id": "tech3",
-    "name": "Django",
-    "image": "/images/techLogos/svg/django.svg"
-  },
-  {
     "id": "tech4",
     "name": "HTML5",
     "image": "/images/techLogos/svg/html.svg"
@@ -65,11 +60,6 @@
     "image": "/images/techLogos/svg/redux.svg"
   },
   {
-    "id": "tech14",
-    "name": "PostgreSQL",
-    "image": "/images/techLogos/svg/postgres.webp"
-  },
-  {
     "id": "tech15",
     "name": "Gimp",
     "image": "/images/techLogos/svg/gimp.svg"
@@ -85,4 +75,3 @@
     "image": "/images/techLogos/svg/git.svg"
   }
 ]
-          
