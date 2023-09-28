@@ -1,6 +1,6 @@
 [
   {
-    "id": "p1",
+    "id": "prjct1",
     "title": "Single Page Parallax Scrolling Website",
     "repo_url": "https://github.com/wlowrimore/studio_services",
     "deployed_url": "https://studio-services.vercel.app/",
@@ -9,7 +9,7 @@
     "tech": "React | NextJS | Tailwind CSS | Google Maps API | Responsive Carousel"
   },
   {
-    "id": "p2",
+    "id": "prjct2",
     "title": "Email Ad Layout",
     "repo_url": "https://github.com/wlowrimore/email_ad_layout",
     "deployed_url": "https://allegiant-email-ad.vercel.app/",
@@ -18,7 +18,7 @@
     "tech": "HTML5 | CSS3"
   },
   {
-    "id": "p3",
+    "id": "prjct3",
     "title": "Sayre Joan Photography",
     "repo_url": "https://github.com/wlowrimore/sj_photo_23",
     "deployed_url": "https://sayrejoanphotograpy.vercel.app/",
@@ -27,7 +27,7 @@
     "tech": "HTML5 | CSS3"
   },
   {
-    "id": "p3",
+    "id": "prjct3",
     "title": "Nash Clothing",
     "repo_url": "https://github.com/wlowrimore/nash-clothing",
     "deployed_url": "https://main--warm-marshmallow-8cdfc9.netlify.app/auth",
