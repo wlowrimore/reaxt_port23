@@ -10,12 +10,12 @@
   },
   {
     "id": "prjct2",
-    "title": "Email Ad Layout",
-    "repo_url": "https://github.com/wlowrimore/email_ad_layout",
-    "deployed_url": "https://allegiant-email-ad.vercel.app/",
-    "image": "/project_images/allegiant_ad.webp",
-    "description": "Email Ad HTML",
-    "tech": "HTML5 | CSS3"
+    "title": "Collegiate Resource Hub",
+    "repo_url": "https://github.com/wlowrimore/a_collegiate_dictionary",
+    "deployed_url": "https://a-collegiate-dictionary.vercel.app/",
+    "image": "/project_images/collegiateResourceHub.webp",
+    "description": "NextJS - Tailwind",
+    "tech": "React | NextJS | Tailwind CSS | Merriam-Webster Inc API"
   },
   {
     "id": "prjct3",
