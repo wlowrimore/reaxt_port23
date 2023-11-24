@@ -7,13 +7,13 @@
   background-color: transparent;
   color: #1f2937;
   display: flex;
+  padding: 0 10rem 0 10rem;
   align-items: center;
 }
 
 .headerNav h1 {
   letter-spacing: 1.3px;
   font-size: 1.3rem;
-  /* padding-left: 3rem; */
 }
 
 .headerNav-bg {  
@@ -50,14 +50,6 @@
   color: white;
 }
 
-.headerNav-bg ul {
-  width: 100vw;
-  background-color: #e5e7eb;
-  color: black;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  transition: background-color 200ms ease-in-out; 
-}
-
 .headerNav-bg a:after {
   display:block;
   content: '';
@@ -74,7 +66,6 @@
 .btmbrdr:after {
   display:block;
   content: '';
-  /* width: inherit; */
   border-bottom: solid 3px #fed7aa;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;

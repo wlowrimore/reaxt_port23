@@ -1,14 +1,14 @@
 "use client";
 
-import { Suspense } from "react";
 import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 import Link from "next/link";
 import DescAnimate from "../DescAnimate";
 
-import CodeIcon from "/public/images/svg/code.svg";
-import DesignIcon from "/public/images/svg/design.svg";
-import TeamIcon from "/public/images/svg/team.svg";
+import ReactIcon from 'public/images/techLogos/svg/react.svg'
+import NextIcon from 'public/images/techLogos/svg/next.svg'
+import TailwindIcon from 'public/images/techLogos/svg/tailwind.svg'
+import JSIcon from 'public/images/techLogos/svg/javascript.svg'
 
 import "./home.css";
 
@@ -29,18 +29,18 @@ const Home = () => {
         {/* left/top section of grid */}
         <section className="flex flex-col justify-center items-center md:items-start lg:items-start mx-auto">
           <div>
-            <p className="text-2xl text-center md:text-start md:text-3xl xl:text-5xl text-orange-400">
+            <p className="text-2xl text-start w-full md:text-start md:text-3xl xl:text-5xl text-orange-400">
               Hello, I&apos;m
             </p>
-            <h1 className="text-2xl md:text-4xl md:pr-2 xl:text-5xl pb-4 text-gray-200">
+            <h1 className="text-2xl md:text-4xl md:pr-2 xl:text-5xl text-gray-200">
               William&nbsp;<span className="text-orange-400">Lowrimore</span>
             </h1>
           </div>
 
-          <div>
-            <h1 className="uppercase flex flex-col md:flex-row w-full text-xl md:text-start text-center md:text-2xl xl:text-3xl text-orange-400">
-              Web Developer
-              <span className="text-gray-200">Front end</span>
+          <div className='w-full mx-auto'>
+            <h1 className="uppercase gap-2 flex md:flex-row w-full text-xl text-start md:text-2xl xl:text-3xl text-orange-400">
+              Front end
+              <span className="text-gray-200">Developer</span>
             </h1>
           </div>
 
@@ -84,45 +84,50 @@ const Home = () => {
       </div>
 
       {/* list of traits */}
-      <div className="flex justify-center items-center">
-        <ul className="flex flex-col md:flex-row md:space-x-12 md:pt-16 xl:pt-20 md:pr-12 justify-center items-center pt-6 text-[1.2rem] tracking-wider text-gray-100 leading-relaxed uppercase">
+      <div className="fixed bottom-10 left-5 hidden md:flex justify-center items-center bg-neutral-800/20 py-2 px-4 rounded-2xl border border-neutral-100/10">
+        <ul className="flex flex-col md:flex-row gap-3 justify-center items-center">
           <Fade cascade direction="left" damping={1} triggerOnce="true">
-            <li className="flex md:text-sm xl:text-lg">
+            <li>
               <Image
                 priority
-                src={CodeIcon}
-                width={32}
-                height={32}
+                src={ReactIcon}
+                width={44}
+                height={44}
                 alt="code symbol svg"
-                className="pr-2"
               />
-              meticulous code
             </li>
           </Fade>
           <Fade cascade direction="right" damping={1} triggerOnce="true">
             <li className="flex md:text-sm xl:text-lg">
               <Image
                 priority
-                src={DesignIcon}
-                width={32}
-                height={32}
+                src={NextIcon}
+                width={44}
+                height={44}
                 alt="design svg"
-                className="pr-2"
               />
-              creative design
             </li>
           </Fade>
           <Fade cascade direction="left" damping={0.3} triggerOnce="true">
             <li className="flex md:text-sm xl:text-lg">
               <Image
                 priority
-                src={TeamIcon}
-                width={32}
-                height={32}
+                src={TailwindIcon}
+                width={44}
+                height={44}
                 alt="team collaboration svg"
-                className="pr-2"
               />
-              collaboration
+            </li>
+          </Fade>
+          <Fade cascade direction="left" damping={0.3} triggerOnce="true">
+            <li className="flex md:text-sm xl:text-lg">
+              <Image
+                priority
+                src={JSIcon}
+                width={44}
+                height={44}
+                alt="team collaboration svg"
+              />
             </li>
           </Fade>
         </ul>

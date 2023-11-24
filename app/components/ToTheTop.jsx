@@ -1,38 +1,42 @@
 "use client";
 
-import React from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import ToHome from "../../public/images/svg/to_the_top.svg";
 
 import "./ttt.css";
 
-const handleClick = (e) => {
-  e.preventDefault();
-
-  const href = e.currentTarget.href;
-  const targetId = href.replace(/.*\#/, "");
-
-  const elem = document.getElementById(targetId);
-  elem?.scrollIntoView({ behavior: "smooth" });
-};
-
 const ToTheTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsVisible(window.scrollY > 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="hidden md:block">
-      <Link
-        onClick={handleClick}
-        href={"#home"}
-        className="fixed bottom-10 right-4 lg:bottom-12 lg:right-8"
-      >
-        <Image
-          src={ToHome}
-          alt="back to home button"
-          width={500}
-          height={500}
-          className="w-12 opacity-80 spin-icon"
-        />
-      </Link>
+    <div className={`${isVisible ? "visible" : "hidden"} fixed bottom-10 right-4 cursor-pointer lg:bottom-12 lg:right-8`}
+      onClick={scrollToTop}>
+      <Image
+        src={ToHome}
+        alt="back to home button"
+        width={500}
+        height={500}
+        className="w-12 opacity-80 spin-icon"
+      />
     </div>
   );
 };

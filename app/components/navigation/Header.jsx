@@ -48,63 +48,53 @@ const Header = () => {
             : "hidden md:flex headerNav py-[1rem]"
         }
       >
-        <div className="hidden md:flex md:ml-[4rem] lg:ml-[4.5rem] xl:ml-[9rem] flex-col w-full">
-          <h1 className="w-full text-white text-bold">william_lowrimore</h1>
+        <div className="hidden md:flex w-full justify-between items-center py-2">
+          <ul className="flex">
+            <h1 className="w-full text-white text-bold">william_lowrimore</h1>
+            <li className="px-4 uppercase text-center">
+              <Link onClick={handleClick} className="btmbrdr" href={"#home"}>
+                home
+              </Link>
+            </li>
+            <li className="px-4 uppercase text-center">
+              <Link onClick={handleClick} className="btmbrdr" href={"#about"}>
+                about
+              </Link>
+            </li>
+            <li className="px-4 uppercase text-center">
+              <Link
+                onClick={handleClick}
+                className="btmbrdr"
+                href={"#projects"}
+              >
+                projects
+              </Link>
+            </li>
+            <li className="px-4 uppercase text-center">
+              <Link
+                onClick={handleClick}
+                className="btmbrdr"
+                href={"#contact"}
+              >
+                contact
+              </Link>
+            </li>
+            <li className="px-4 uppercase text-center">
+              <Link
+                href="/resume/swfr_resume_8-23.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="swfr_resume_8-23.pdf"
+                onClick={() => setToggle(!toggle)}
+                className="btmbrdr"
+              >
+                resume
+              </Link>
+            </li>
+          </ul>
         </div>
-        <nav className="flex justify-end mr-5 md:mr-[3rem] lg:mr-[5rem] xl:mr-[10rem]">
-          <h3
-            className="text-sm uppercase hover:text-orange-200 cursor pointer"
-            onClick={() => setToggle(!toggle)}
-          >
-            menu
-          </h3>
-        </nav>
-        {toggle && (
-          <div className="fixed top-[4.5rem] right-1">
-            <ul className="flex justify-center items-center py-2">
-              <li className="px-4 uppercase text-center">
-                <Link onClick={handleClick} className="btmbrdr" href={"#home"}>
-                  home
-                </Link>
-              </li>
-              <li className="px-4 uppercase text-center">
-                <Link onClick={handleClick} className="btmbrdr" href={"#about"}>
-                  about
-                </Link>
-              </li>
-              <li className="px-4 uppercase text-center">
-                <Link
-                  onClick={handleClick}
-                  className="btmbrdr"
-                  href={"#projects"}
-                >
-                  projects
-                </Link>
-              </li>
-              <li className="px-4 uppercase text-center">
-                <Link
-                  onClick={handleClick}
-                  className="btmbrdr"
-                  href={"#contact"}
-                >
-                  contact
-                </Link>
-              </li>
-              <li className="px-4 uppercase text-center">
-                <Link
-                  href="/resume/swfr_resume_8-23.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download="swfr_resume_8-23.pdf"
-                  onClick={() => setToggle(!toggle)}
-                  className="btmbrdr"
-                >
-                  resume
-                </Link>
-              </li>
-            </ul>
-          </div>
-        )}
+
+
       </div>
 
       {/* mobile nav */}

@@ -4,7 +4,6 @@ import React from "../../../public/images/techLogos/svg/react.svg";
 import Next from "../../../public/images/techLogos/svg/next.svg";
 import Tailwind from "../../../public/images/techLogos/svg/tailwind.svg";
 import JavaScript from "../../../public/images/techLogos/svg/javascript.svg";
-import EmailJS from "../../../public/images/techLogos/svg/emailjs.svg";
 
 const Footer = (tech) => {
   return (
@@ -48,15 +47,6 @@ const Footer = (tech) => {
               width={500}
               height={500}
               className="w-6"
-            />
-          </li>
-          <li>
-            <Image
-              src={EmailJS}
-              alt="email.js"
-              width={500}
-              height={500}
-              className="w-5 pt-[0.15rem]"
             />
           </li>
         </ul>

@@ -86,7 +86,7 @@ const Contact = () => {
   };
 
   return (
-    <main className="min-h-screen xl:bg-custombg4 bg-fixed bg-no-repeat bg-cover flex flex-col justify-center items-center md:py-[12rem] lg:py-8 xl:px-[11rem]">
+    <main className="min-h-screen xl:bg-custombg4 bg-fixed bg-no-repeat bg-cover flex flex-col justify-center items-center pt-24">
       <div className="relative bottom-[16rem] z-10 w-full">
         {success || error ? showStatusMessage() : null}
       </div>
