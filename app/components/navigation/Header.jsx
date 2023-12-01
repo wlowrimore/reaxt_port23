@@ -81,10 +81,10 @@ const Header = () => {
             </li>
             <li className="px-4 uppercase text-center">
               <Link
-                href="/resume/swfr_resume_8-23.pdf"
+                href="/resume/williamLowrimoreResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                download="swfr_resume_8-23.pdf"
+                download="williamLowrimoreResume.pdf"
                 onClick={() => setToggle(!toggle)}
                 className="btmbrdr"
               >

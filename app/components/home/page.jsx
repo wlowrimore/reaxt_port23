@@ -59,10 +59,10 @@ const Home = () => {
             &nbsp;
             <button type="button">
               <Link
-                href="/resume/lowrimore_william_resume.pdf"
+                href="/resume/williamLowrimoreResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                download="lowrimore_william_resume.pdf"
+                download="williamLowrimoreResume.pdf"
                 className="hidden transform md:block uppercase md:px-2 text-lg text-gray-200 tracking-wider transition hover:text-orange-400 duration-300"
               >
                 get resume
