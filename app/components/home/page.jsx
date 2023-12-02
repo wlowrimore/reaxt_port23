@@ -84,8 +84,8 @@ const Home = () => {
       </div>
 
       {/* list of traits */}
-      <div className="fixed bottom-10 left-5 hidden md:flex justify-center items-center bg-neutral-800/20 py-2 px-4 rounded-2xl border border-neutral-100/10">
-        <ul className="flex flex-col md:flex-row gap-3 justify-center items-center">
+      <div className="md:fixed mt-44 md:mt-0 top-2 md:bottom-10 md:left-0 md:flex justify-center items-center bg-neutral-800/20 py-2 px-4 md:pl-2 rounded-2xl border border-neutral-100/10">
+        <ul className="flex md:flex-col gap-3 justify-center items-center">
           <Fade cascade direction="left" damping={1} triggerOnce="true">
             <li>
               <Image
