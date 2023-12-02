@@ -1,12 +1,12 @@
 [
   {
     "id": "prjct1",
-    "title": "Single Page Parallax Scrolling Website",
-    "repo_url": "https://github.com/wlowrimore/studio_services",
-    "deployed_url": "https://studio-services.vercel.app/",
-    "image": "/project_images/imperialStudios.webp",
-    "description": "NextJS ~ Tailwind",
-    "tech": "React | NextJS | Tailwind CSS | Google Maps API | Responsive Carousel"
+    "title": "Countries Search Application",
+    "repo_url": "https://github.com/wlowrimore/frontend-mentor-rest-countries-api",
+    "deployed_url": "https://searchrestcountriesapi.vercel.app/",
+    "image": "/project_images/countries.webp",
+    "description": "NextJS ~ Tailwind - REST API",
+    "tech": "React | NextJS | Tailwind CSS | REST Countries API"
   },
   {
     "id": "prjct2",
