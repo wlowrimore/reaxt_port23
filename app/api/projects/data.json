@@ -19,11 +19,11 @@
   },
   {
     "id": "prjct3",
-    "title": "Sayre Joan Photography",
-    "repo_url": "https://github.com/wlowrimore/sj_photo_23",
-    "deployed_url": "https://sayrejoanphotograpy.vercel.app/",
-    "image": "/project_images/sayreJoan.webp",
-    "description": "ReactJS ~ TailWind",
+    "title": "International Coffee Roasters",
+    "repo_url": "https://github.com/wlowrimore/roasters_2024",
+    "deployed_url": "https://roasters-2024.vercel.app/",
+    "image": "/project_images/roasters.webp",
+    "description": "NextJS ~ TailWind",
     "tech": "HTML5 | CSS3"
   },
   {
