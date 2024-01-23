@@ -27,7 +27,16 @@
     "tech": "HTML5 | CSS3"
   },
   {
-    "id": "prjct3",
+    "id": "prjct4",
+    "title": "News Link Now",
+    "repo_url": "https://github.com/wlowrimore/all_news",
+    "deployed_url": "https://news-link-now.vercel.app/",
+    "image": "/project_images/newsLinkNow.webp",
+    "description": "NextJS ~ TailWind - API",
+    "tech": "Javascript | Tailwind CSS | NYTimes API"
+  },
+  {
+    "id": "prjct5",
     "title": "Nash Clothing",
     "repo_url": "https://github.com/wlowrimore/nash-clothing",
     "deployed_url": "https://main--warm-marshmallow-8cdfc9.netlify.app/auth",
