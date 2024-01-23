@@ -32,7 +32,7 @@
     "repo_url": "https://github.com/wlowrimore/all_news",
     "deployed_url": "https://news-link-now.vercel.app/",
     "image": "/project_images/newsLinkNow.webp",
-    "description": "NextJS ~ TailWind - API",
+    "description": "NextJS ~ TailWind ~ API",
     "tech": "Javascript | Tailwind CSS | NYTimes API"
   },
   {
