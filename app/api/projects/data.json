@@ -9,15 +9,6 @@
     "tech": "React | NextJS | Tailwind CSS | REST Countries API"
   },
   {
-    "id": "prjct2",
-    "title": "Collegiate Resource Hub",
-    "repo_url": "https://github.com/wlowrimore/a_collegiate_dictionary",
-    "deployed_url": "https://a-collegiate-dictionary.vercel.app/",
-    "image": "/project_images/collegiateResourceHub.webp",
-    "description": "NextJS - Tailwind",
-    "tech": "React | NextJS | Tailwind CSS | Merriam-Webster Inc API"
-  },
-  {
     "id": "prjct3",
     "title": "International Coffee Roasters",
     "repo_url": "https://github.com/wlowrimore/roasters_2024",
